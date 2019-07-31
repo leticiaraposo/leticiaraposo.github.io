@@ -2,4 +2,46 @@ img {
   width: 400px;
   display: block;
   margin: 0 auto;
+  float: left;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+li {
+    font-size: 18px;
+}
+
+div.a {
+  line-height: normal;
+}
+
+div.b {
+  line-height: 1.6;
+}
+
+div.c {
+  line-height: 80%;
+}
+
+div.d {
+  line-height: 200%;
 }

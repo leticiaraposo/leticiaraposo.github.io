@@ -1,0 +1,27 @@
+---
+title: "Publicações"
+---
+
+### Artigos completos publicados em periódicos
+
+1. ROSALES-LOPEZ, A.; **RAPOSO, L. M.**; NOBRE, F. F.; ALMEIDA, R. T. *The use of intervention analysis of the mortality rates from breast cancer in assessing the Brazilian screening programme*. RESEARCH ON BIOMEDICAL ENGINEERING, v.34, n.4, p.285-290, 2018.
+
+2. **RAPOSO, L. M.**; NOBRE, FLAVIO F. *Ensemble Classifiers for Predicting HIV-1 Resistance from Three Rule-Based Genotypic Resistance Interpretation Systems*. JOURNAL OF MEDICAL SYSTEMS, v. 41, p. 155, 2017.
+
+3. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Lopinavir Resistance Classification with Imbalanced Data Using Probabilistic Neural Networks*. JOURNAL OF MEDICAL SYSTEMS, v. 40, p. 69, 2016.
+
+4. **RAPOSO, L. M.**; VELASQUE, L. S.; LUZ, P. M.; FRIEDMAN, R. K.; CYTRYN, A.; ANDRADE, A. C. V.; VANNI, T.; BRASIL, P. E. A. A.; RUSSOMANO, F.; VELOSO, V. G.; GRINSZTEJN, B.; STRUCHINER, C. J. *Desempenho do exame citológico e da captura híbrida II no rastreamento de lesões intraepiteliais escamosas de alto grau em mulheres HIV+*. Cadernos de Saude Publica, v. 27, p. 1281-1291, 2011.
+
+### Capítulos de livros publicados
+
+1. BARROS, C.; **RAPOSO, L. M.**; NOBRE, F. F. *Logistic Regression Classifiers in the Analysis of HIV-1 Use of CCR5 and CXCR4 Coreceptors*. IFMBE Proceedings. 1ed.: Springer Singapore, 2019, v. 70, p. 675-678.
+
+2. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Logistic Regression Models for Predicting Resistance to HIV Protease Inhibitor Nelfinavir*. IFMBE Proceedings. 41ed.: Springer International Publishing, 2014, p. 1237-1240.
+
+### Trabalhos completos publicados em anais de congressos
+
+1. **RAPOSO, L. M.**; NOBRE, FLAVIO F. *Multiclassificadores de Resistência aos Inibidores da HIV-Protease Baseados em Sistemas de Interpretação Genotípica*. In: XXV Congresso Brasileiro de Engenharia Biomédica (CBEB 2016), 2016, Foz do Iguaçu. ANAIS DO XXV CBEB - EDIÇÃO 2016, 2016.
+
+2. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Modelos Preditivos de Resistência ao Inibidor da HIV-Protease Lopinavir*. In: XXIV Congresso Brasileiro de Engenharia Biomédica - CBEB 2014, 2014, Uberlândia. XXIV CBEB - EDIÇÃO 2014, 2014.
+
+3. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Probabilistic Neural Network for Predicting Resistance to HIV-Protease Inhibitor Nelﬁnavir*. In: International Conference on Bioinformatics Models, Methods and Algorithms (BIOINFORMATICS 2014), 2014, Angers, France. Proceedings of the International Conference on Bioinformatics Models, Methods and Algorithms, 2014. p. 17-23.

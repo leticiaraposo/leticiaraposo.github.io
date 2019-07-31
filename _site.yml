@@ -3,24 +3,28 @@ output_dir: "."
 navbar:
   title: "Letícia M. Raposo"
   left:
-    - text: "Writing"
-      href: research.html
-    - text: "Speaking"
-      href: projects.html
-    - text: "Programming"
-      href: software.html
-    - text: "Teaching"
-      href: teaching.html
-    - text: "About"
-      href: about.html
+    - text: "Início"
+      href: inicio.html
+    - text: "Publicações"
+      href: publicacoes.html
+    - text: "Ensino"
+      href: ensino.html
+    - text: "Curiosidades"
+      href: curiosidades.html
+    - text: "CV"
+      href: cv.html
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:profleticiaraposo@gmail.com
     - icon: fa-github fa-lg
       href: http://github.com/leticiaraposo
     - icon: fa-linkedin fa-lg
-      href: 
+      href: https://www.linkedin.com/in/let%C3%ADcia-raposo/
+    - icon: fa-google
+      href: https://scholar.google.com/citations?user=j9H0sfQAAAAJ&hl=pt-BR&oi=ao
 output:
   html_document:
-    theme: paper
+    theme: journal
+    highlight: textmate
     css: 'styles.css'
+     
