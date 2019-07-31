@@ -10,5 +10,3 @@ Possuo graduação em Biomedicina pela Universidade Federal do Estado do Rio de 
 Fui professora substituta de cálculo da Universidade Federal do Rio de Janeiro durante os anos de 2016 e 2017. 
 Atualmente sou Professora Adjunta da Universidade Federal do Estado do Rio de Janeiro. 
 Tenho experiência na área de Modelagem Estatística e Aprendizado de Máquina.
-
-<!-- ![](Leticia.jpg)  -->

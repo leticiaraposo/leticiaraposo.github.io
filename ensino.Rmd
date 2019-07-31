@@ -4,6 +4,9 @@ title: "Ensino"
 
 <h3> Bioestatística (UNIRIO)</h3>
 
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view)
+- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view)
+
 <h4>- Biologia/Biomedicina</h4>
 <br>
 <h4>- Ciências Ambientais/Biológicas/Naturais</h4>
