@@ -3,16 +3,21 @@ output_dir: "."
 navbar:
   title: "Letícia M. Raposo"
   left:
-    - text: "Início"
+    - icon: fa-home fa-lg
+      text: "Início"
       href: inicio.html
-    - text: "Publicações"
+    - icon: fa-file-alt fa-lg
+      text: "Publicações"
       href: publicacoes.html
-    - text: "Ensino"
+    - icon: fa-chalkboard-teacher fa-lg
+      text: "Ensino"
       href: ensino.html
-    - text: "Curiosidades"
+    - icon: fa-lightbulb fa-lg
+      text: "Curiosidades"
       href: curiosidades.html
-    - text: "CV"
-      href: cv.html
+    - icon: fa-history fa-lg
+      text: "CV"
+      href: curriculo.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:profleticiaraposo@gmail.com
@@ -26,5 +31,7 @@ output:
   html_document:
     theme: journal
     highlight: textmate
+    include: 
+      in_header: flavicon.html 
     css: 'styles.css'
      

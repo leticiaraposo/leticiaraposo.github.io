@@ -1,4 +1,23 @@
 ---
 title: "Curiosidades"
 ---
-Em construção.
+<br>
+
+Dicas, páginas interessantes, conteúdo informativo... tudo que envolve R, estatística, aprendizado de máquina e diversão será compartilhado nesta página.
+
+Aproveitem! <i class="far fa-smile-wink"></i>
+
+<h3>R/RStudio</h3>
+<br>
+
+<h4>Gráficos</h4>
+Os links abaixos apresentam páginas e pacotes voltados para a contrução de gráficos no R.
+<br>
+<br>
+
+<ul class="fa-ul">
+<li><i class="fas fa-chart-bar"></i> [Esquisse](https://dreamrs.github.io/esquisse/): add-in do RStudio que permite a contrução de gráficos por meio do pacote ggplot2 sem a necessidade de linhas de comando.</li>
+<li><i class="fas fa-chart-bar"></i> [from Data to Viz](https://www.data-to-viz.com/): árvore de decisão que leva a um conjunto de visualizações potencialmente apropriadas para representar seu conjunto de dados via R.</li>
+<li><i class="fas fa-chart-bar"></i> [Plotly](https://plot.ly/r/): pacote do R para desenvolvimento de gráficos iterativos.</li>
+<li><i class="fas fa-chart-bar"></i> [The R Graph Gallery](https://www.r-graph-gallery.com/): projeto desenvolvido por Yan Holtz para promover a visualização de dados usando o R. A idéia do site é fornecer centenas de gráficos R, sempre com o código reproduzível associado.</li>
+</ul>

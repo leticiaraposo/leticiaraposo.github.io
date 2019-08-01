@@ -3,16 +3,19 @@ title: "Ensino"
 ---
 
 <h3> Bioestatística (UNIRIO)</h3>
-
-- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view)
-- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view)
-
-<h4>- Biologia/Biomedicina</h4>
 <br>
-<h4>- Ciências Ambientais/Biológicas/Naturais</h4>
+
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
+<br>
+
+<h4> Biologia/Biomedicina</h4>
+<br>
+<h4> Ciências Ambientais/Biológicas/Naturais</h4>
 
 <h3>Análise Inteligente de Dados - COB754 (UFRJ)</h3>
+<br>
 
-- Avaliação de modelos: [Slides](https://drive.google.com/file/d/1De001UrKu84N77hh3TR8AEARkFeaf0u0/view)
-- k-NN: [Slides](https://drive.google.com/file/d/11WaKGRb-OWlxPBwKnzTMPCz1KPXMhKQX/view), [Dados](https://drive.google.com/file/d/1441wpCYErHO5LXTU1VD8WLQHLYM45yFU/view), [RMarkdown](https://drive.google.com/file/d/1pWzQQk7gQtgUyWw2do_8t-YtPOyt-BZL/view)
+- Avaliação de modelos: [Slides](https://drive.google.com/file/d/1De001UrKu84N77hh3TR8AEARkFeaf0u0/view?usp=sharing)
+- k-NN: [Slides](https://drive.google.com/file/d/11WaKGRb-OWlxPBwKnzTMPCz1KPXMhKQX/view?usp=sharing), [Dados](https://drive.google.com/file/d/1441wpCYErHO5LXTU1VD8WLQHLYM45yFU/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1pWzQQk7gQtgUyWw2do_8t-YtPOyt-BZL/view?usp=sharing)
 
