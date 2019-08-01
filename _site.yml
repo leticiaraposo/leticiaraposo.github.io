@@ -11,7 +11,11 @@ navbar:
       href: publicacoes.html
     - icon: fa-chalkboard-teacher fa-lg
       text: "Ensino"
-      href: ensino.html
+      menu:
+        - text: "Bioestatística"
+          href: bioestatistica.html
+        - text: "Análise Inteligente de Dados"
+          href: analisedados.html
     - icon: fa-lightbulb fa-lg
       text: "Curiosidades"
       href: curiosidades.html

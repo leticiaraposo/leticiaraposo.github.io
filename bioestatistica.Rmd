@@ -1,0 +1,31 @@
+---
+title: "Ensino"
+---
+
+<h3> Bioestatística (UNIRIO)</h3>
+<br>
+
+O objetivo do curso é apresentar um conjunto de métodos estatísticos que permitam ao estudante ler, 
+compreender e interpretar os trabalhos técnicos e científicos que se utilizam da Estatística, assim 
+como  ter  uma  noção  das  técnicas  envolvidas  na  coleta,  apresentação,  análise  e  interpretação  de 
+dados tanto na área de planejamento, como na de pesquisa. 
+
+<h4>Materiais</h4>
+
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
+<br>
+
+<h4> Turma de Biologia/Biomedicina</h4>
+<br>
+As aulas são ministradas nas quintas e sextas, das 9h às 12h.
+Quinta-feira: sala 301N
+Sexta-feira: Laboratório 3
+<br>
+
+<h4> Turma de Ciências Ambientais/Biológicas/Naturais</h4>
+<br>
+As aulas são ministradas às sextas-feiras, das 18h às 22h.
+18h - 20h: sala 
+20h - 22h: Laboratório 3
+<br>

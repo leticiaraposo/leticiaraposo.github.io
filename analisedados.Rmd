@@ -1,0 +1,10 @@
+---
+title: "Ensino"
+---
+
+<h3>Análise Inteligente de Dados - COB754 (UFRJ)</h3>
+<br>
+
+- Avaliação de modelos: [Slides](https://drive.google.com/file/d/1De001UrKu84N77hh3TR8AEARkFeaf0u0/view?usp=sharing)
+- k-NN: [Slides](https://drive.google.com/file/d/1DllkIuPT7K-m2UA6Yp7d9ME-2ClGowqr/view?usp=sharing), [Dados](https://drive.google.com/file/d/1441wpCYErHO5LXTU1VD8WLQHLYM45yFU/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1C8gKC8bQOvz2ssa1k1IdpsgKvXr18Hgn/view?usp=sharing)
+
