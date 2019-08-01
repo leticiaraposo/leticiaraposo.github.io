@@ -15,9 +15,6 @@ navbar:
     - icon: fa-lightbulb fa-lg
       text: "Curiosidades"
       href: curiosidades.html
-    - icon: fa-history fa-lg
-      text: "CV"
-      href: curriculo.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:profleticiaraposo@gmail.com
