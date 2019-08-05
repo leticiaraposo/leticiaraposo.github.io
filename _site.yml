@@ -13,7 +13,9 @@ navbar:
       text: "Ensino"
       menu:
         - text: "Bioestatística"
-          href: bioestatistica.html
+          href: bioestatisticaBB.html
+        - text: "Bioestatística / Estatística Aplicada"
+          href: bioestatisticaCABN.html
         - text: "Análise Inteligente de Dados"
           href: analisedados.html
     - icon: fa-lightbulb fa-lg

@@ -1,5 +1,5 @@
 ---
-title: "Bioestatística (UNIRIO)"
+title: "Biomedicina e Ciência Biológicas"
 ---
 
 <br>
@@ -10,16 +10,6 @@ dados tanto na área de planejamento, como na de pesquisa.</i>
 <br>
 <br>
 
-<h3>Materiais Complementares</h3>
-
-- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
-- Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
-- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
-
-<br>
-
-<h3>Turma de Biologia/Biomedicina</h3>
-
 As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 
 <ul class="fa-ul">
@@ -28,7 +18,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 </ul>
 <br>
 
-<h4>Material Didático</h4>
+<h4 style="color:rgb(235, 104, 100);">Material Didático</h4>
 
 <ul class="fa-ul">
 <li><i class="fas fa-book"></i> DANCEY, Christine P.; REIDY, John G.; ROWE, Richard. **Estatística Sem Matemática para as Ciências da Saúde**. Penso Editora, 2017.
@@ -38,13 +28,13 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 
 <br>
 
-<h4>Conteúdo Programático</h4>
+<h4 style="color:rgb(235, 104, 100);">Conteúdo Programático</h4>
 
 **PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
 <br>
 
-+ Aula 1 - Pesquisas e Dados: [Slides]()
-+ Aula 2 - Introdução ao R / RStudio: [Apostila](), [Script de Instalação de Pacotes]()
++ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1ryuqE4gLU28KXwcDMm8717D3eqEQ2QzO/view?usp=sharing)
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes]()
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
@@ -75,7 +65,19 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 
 <br>
 
-<h3> Turma de Ciências Ambientais/Biológicas/Naturais</h3>
+<h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
 
-As aulas são ministradas às sextas-feiras, das 18h às 22h, no Laboratório IBIO.
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
+- Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
+
 <br>
+
+<h4 style="color:rgb(235, 104, 100);">Avaliação</h4>
+
+A avaliação do aluno na disciplina será realizada por meio de duas atividades (AT), duas avaliações (AV) e um trabalho final (TF) dividido em parte escrita (TFE) e oral (TFO).
+A nota final será calculada da seguinte forma:
+
+$$Nota Final = \frac{AT1 + AT2 + AV1 + AV2 + (0.6*TFEscrita + 0.4TFO)}{5}$$
+
+
