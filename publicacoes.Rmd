@@ -38,7 +38,7 @@ title: "Publicações"
 1. **RAPOSO, L. M.**; NOBRE, FLAVIO F. *Multiclassificadores de Resistência aos Inibidores da HIV-Protease Baseados em Sistemas de Interpretação Genotípica*. In: XXV Congresso Brasileiro de Engenharia Biomédica (CBEB 2016), 2016, Foz do Iguaçu. ANAIS DO XXV CBEB - EDIÇÃO 2016, 2016.
 
 2. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Modelos Preditivos de Resistência ao Inibidor da HIV-Protease Lopinavir*. In: XXIV Congresso Brasileiro de Engenharia Biomédica - CBEB 2014, 2014, Uberlândia. XXIV CBEB - EDIÇÃO 2014, 2014.
-<a href="http://www.canal6.com.br/cbeb/2014/artigos/cbeb2014_submission_018.pdf" <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+<a href="http://www.canal6.com.br/cbeb/2014/artigos/cbeb2014_submission_018.pdf"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 
 3. **RAPOSO, L. M.**; ARRUDA, M. B.; DE BRINDEIRO, R. M.; NOBRE, F. F. *Probabilistic Neural Network for Predicting Resistance to HIV-Protease Inhibitor Nelﬁnavir*. In: International Conference on Bioinformatics Models, Methods and Algorithms (BIOINFORMATICS 2014), 2014, Angers, France. Proceedings of the International Conference on Bioinformatics Models, Methods and Algorithms, 2014. p. 17-23.
 <a href="https://www.researchgate.net/publication/282611295_Probabilistic_Neural_Network_for_Predicting_Resistance_to_HIV-Protease_Inhibitor_Nelfinavir"> <i class="fa fa-external-link" aria-hidden="true"></i></a>
