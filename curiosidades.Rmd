@@ -21,3 +21,24 @@ Os links abaixos apresentam páginas e pacotes voltados para a contrução de gr
 <li><i class="fas fa-chart-bar"></i> [Plotly](https://plot.ly/r/): pacote do R para desenvolvimento de gráficos iterativos.</li>
 <li><i class="fas fa-chart-bar"></i> [The R Graph Gallery](https://www.r-graph-gallery.com/): projeto desenvolvido por Yan Holtz para promover a visualização de dados usando o R. A idéia do site é fornecer centenas de gráficos R, sempre com o código reproduzível associado.</li>
 </ul>
+
+<h4>Imagens</h4>
+<p>Transforme suas fotos em imagens interessantes no R. Abaixo estão alguns exemplos e os scripts necessários para realizar a transformação.
+<br>
+<br>
+
+- Imagem como gráfico de pontos: [Script](https://drive.google.com/file/d/1dQvQL_5bHv5iJekauarLuvx1hvr9xa83/view?usp=sharing)
+- Imagem com Lego: [Script](https://drive.google.com/file/d/1k9QCe6uuWkYa2JUM3LkbzFLKoNuSyeFi/view?usp=sharing)
+<br>
+
+**Exemplo**: Abaporu: pintura a óleo da artista brasileira Tarsila do Amaral. Na Figura 1 vemos a imagem original, na Figura 2, uma imagem feita com pontos, e na Figura 3, uma imagem feita com Legos.
+<br>
+<br>
+
+<img src="Abaporu.jpg" alt="Abaporu" style="width:300px;height:300px;">
+<img src="AbaporuPontosR.jpeg" alt="AbaporuPontosR" style="width:300px;height:300px;">
+<img src="AbaporuLegoR.jpeg" alt="AbaporuLegoR" style="width:300px;height:300px;">
+
+
+
+
