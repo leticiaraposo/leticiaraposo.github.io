@@ -34,13 +34,13 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <br>
 
 + Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1ryuqE4gLU28KXwcDMm8717D3eqEQ2QzO/view?usp=sharing)
-+ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes]()
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing)
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada:
-+ Aula 4 - Estatística Descritiva Bivariada:
++ Aula 3 - Estatística Descritiva Univariada
++ Aula 4 - Estatística Descritiva Bivariada
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
@@ -69,7 +69,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 
 - Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
 - Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
-- Funçoes do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
+- Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
 - Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
 
 <br>
@@ -79,6 +79,61 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 A avaliação do aluno na disciplina será realizada por meio de duas atividades (AT), duas avaliações (AV) e um trabalho final (TF) dividido em parte escrita (TFE) e oral (TFO).
 A nota final será calculada da seguinte forma:
 
-$$Nota Final = \frac{AT1 + AT2 + AV1 + AV2 + (0.6*TFEscrita + 0.4TFO)}{5}$$
+$$Nota Final = \frac{(0.5*AT1) + (0.5*AT2) + AV1 + AV2 + (0.6*TFEscrita + 0.4TFO)}{4}$$
 
+<h4 style="color:rgb(235, 104, 100);">Datas Importantes</h4>
+<br>
+
+AGOSTO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **15/08/19**: Início das aulas
+<li><i class="far fa-calendar-alt"></i> **23/08/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos grupos e temas</span>
+<li><i class="far fa-calendar-alt"></i> **29/08/19**: Simpósio Bio e Biomed - haverá aula, mas não será cobrada a presença
+<li><i class="far fa-calendar-alt"></i> **30/08/19**: Simpósio Bio e Biomed - haverá aula, mas não será cobrada a presença
+</ul>
+<br>
+
+SETEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **06/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário</span>
+<li><i class="far fa-calendar-alt"></i> **13/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1</span>
+<li><i class="far fa-calendar-alt"></i> **20/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da introdução + objetivos</span>
+<li><i class="far fa-calendar-alt"></i> **27/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados</span>
+</ul>
+<br>
+
+OUTUBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **04/10/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1</span>
+<li><i class="far fa-calendar-alt"></i> **11/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
+<li><i class="far fa-calendar-alt"></i> **18/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
+<li><i class="far fa-calendar-alt"></i> **24/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
+<li><i class="far fa-calendar-alt"></i> **25/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
+</ul>
+<br>
+
+NOVEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **01/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
+<li><i class="far fa-calendar-alt"></i> **07/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana da Biomedicina - não haverá aula, apenas encontros sobre o trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **08/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana da Biomedicina - não haverá aula, apenas encontros sobre o trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **14/11/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2</span>
+<li><i class="far fa-calendar-alt"></i> **15/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **21/11/19**: Orientação dos trabalhos
+<li><i class="far fa-calendar-alt"></i> **22/11/19**: Orientação dos trabalhos + <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos resultados</span>
+<li><i class="far fa-calendar-alt"></i> **28/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do trabalho final</span>
+</ul>
+<br>
+
+DEZEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **05/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Apresentação do trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **12/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova final</span>
+</ul>
+<br>
 
