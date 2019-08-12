@@ -10,7 +10,7 @@ Aproveitem! <i class="far fa-smile-wink"></i>
 <h3>R/RStudio</h3>
 <br>
 
-<i><h4>Cheet Sheets</h4></i>
+<h4>Cheet Sheets</h4>
 As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos pacotes do R/RStudio. Todas elas foram obtidas por meio deste [link](https://www.rstudio.com/resources/cheatsheets/).
 <br>
 <br>
