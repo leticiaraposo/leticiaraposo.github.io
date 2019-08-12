@@ -68,6 +68,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 - Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
 - Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
 - Trabalho da Disciplina: [Modelo](https://drive.google.com/file/d/1B7kxKbIohAEL080SnqIE1Qxx9gIVKLLh/view?usp=sharing), [Ficha de Avaliação da Apresentação Oral](https://drive.google.com/file/d/1EcFAVg52l0ppbOGq1amXEO7O3XLZoIA0/view?usp=sharing)
+
 ***
 
 <h4 style="color:rgb(235, 104, 100);">Datas Importantes</h4>
