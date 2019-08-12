@@ -10,6 +10,22 @@ Aproveitem! <i class="far fa-smile-wink"></i>
 <h3>R/RStudio</h3>
 <br>
 
+<i><h4>Cheet Sheets</h4></i>
+As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos pacotes do R/RStudio. Todas elas foram obtidas por meio deste [link](https://www.rstudio.com/resources/cheatsheets/).
+<br>
+<br>
+
+<ul class="fa-ul">
+<li><i class="far fa-file"></i> [Comandos Básicos do R](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf)</li>
+<li><i class="far fa-file"></i> <span style="color:rgb(235, 104, 100);">Aprendizado de Máquina</span> [1](https://github.com/rstudio/cheatsheets/raw/master/caret.pdf) [2](https://github.com/rstudio/cheatsheets/raw/master/Machine%20Learning%20Modelling%20in%20R.pdf) [3](https://github.com/rstudio/cheatsheets/raw/master/mlr.pdf)</li>
+<li><i class="far fa-file"></i> [RMarkdown](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)</li>
+<li><i class="far fa-file"></i> [RStudio IDE](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)</li>
+<li><i class="far fa-file"></i> [Shiny](https://github.com/rstudio/cheatsheets/raw/master/shiny.pdf)</li>
+<li><i class="far fa-file"></i> [Visualização de Dados](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)</li>
+</ul>
+
+***
+
 <h4>Gráficos</h4>
 Os links abaixos apresentam páginas e pacotes voltados para a contrução de gráficos no R.
 <br>
@@ -22,13 +38,17 @@ Os links abaixos apresentam páginas e pacotes voltados para a contrução de gr
 <li><i class="fas fa-chart-bar"></i> [The R Graph Gallery](https://www.r-graph-gallery.com/): projeto desenvolvido por Yan Holtz para promover a visualização de dados usando o R. A idéia do site é fornecer centenas de gráficos R, sempre com o código reproduzível associado.</li>
 </ul>
 
+***
+
 <h4>Imagens</h4>
 <p>Transforme suas fotos em imagens interessantes no R. Abaixo estão alguns exemplos e os scripts necessários para realizar a transformação.
 <br>
 <br>
 
-- Imagem como gráfico de pontos: [Script](https://drive.google.com/file/d/1dQvQL_5bHv5iJekauarLuvx1hvr9xa83/view?usp=sharing)
-- Imagem com Lego: [Script](https://drive.google.com/file/d/1k9QCe6uuWkYa2JUM3LkbzFLKoNuSyeFi/view?usp=sharing)
+<ul class="fa-ul">
+<li><i class="fas fa-file-image"></i> Imagem como gráfico de pontos: [Script](https://drive.google.com/file/d/1dQvQL_5bHv5iJekauarLuvx1hvr9xa83/view?usp=sharing)</li>
+<li><i class="fas fa-file-image"></i> Imagem com Lego: [Script](https://drive.google.com/file/d/1k9QCe6uuWkYa2JUM3LkbzFLKoNuSyeFi/view?usp=sharing)</li>
+</ul>
 <br>
 
 **Exemplo**: Abaporu: pintura a óleo da artista brasileira Tarsila do Amaral. Na Figura 1 vemos a imagem original, na Figura 2, uma imagem feita com pontos, e na Figura 3, uma imagem feita com Legos.
