@@ -58,7 +58,20 @@ Os links abaixos apresentam páginas e pacotes voltados para a contrução de gr
 <img src="Abaporu.jpg" alt="Abaporu" style="width:300px;height:300px;">
 <img src="AbaporuPontosR.jpeg" alt="AbaporuPontosR" style="width:300px;height:300px;">
 <img src="AbaporuLegoR.jpeg" alt="AbaporuLegoR" style="width:300px;height:300px;">
+<br>
+<br>
 
+Aproveite os scripts e faça a sua própria arte!
 
+***
 
+<h4>Diversão</h4>
+<p>Jogue e crie memes com o R. Abaixo você encontra alguns scripts com os pacotes e as funções necessárias para se divertir!
+<br>
+<br>
+
+<ul class="fa-ul">
+<li><i class="fas fa-puzzle-piece"></i> Jogos: [Script](https://drive.google.com/file/d/1UXRrFCFp1ECUrQXqdEatddNDI6jGJNHY/view?usp=sharing)</li>
+<li><i class="fas fa-puzzle-piece"></i> Memes: [Script](https://drive.google.com/file/d/1LzilvO4Jny6kYw-8A3YiqV4cebhsgSMl/view?usp=sharing)</li>
+</ul>
 
