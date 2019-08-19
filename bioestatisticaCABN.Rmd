@@ -1,5 +1,5 @@
 ---
-title: "Ciências Ambientais / Biológicas / Naturais"
+title: "Ciências Ambientais / Biológicas / da Natureza"
 ---
 
 <br>
@@ -30,7 +30,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 <br>
 
 + Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1uqINAROHu0T7J7-pFuZpLQP3UvF8jFAB/view?usp=sharing)
-+ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
@@ -128,7 +128,7 @@ DEZEMBRO
 A avaliação do aluno na disciplina será realizada por meio de duas atividades (AT), duas avaliações (AV) e um trabalho final (TF) dividido em parte escrita (TFE) e oral (TFO).
 A nota final será calculada da seguinte forma:
 
-$$Nota Final = \frac{(0.5*AT1) + (0.5*AT2) + AV1 + AV2 + (0.6*TFE + 0.4*TFO)}{5}$$
+$$Nota Final = \frac{(0.5*AT1) + (0.5*AT2) + AV1 + AV2 + (0.6*TFE + 0.4*TFO)}{4}$$
 
 *** 
 
