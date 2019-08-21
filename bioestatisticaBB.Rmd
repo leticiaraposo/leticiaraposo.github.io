@@ -35,13 +35,13 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <br>
 
 + Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1ryuqE4gLU28KXwcDMm8717D3eqEQ2QzO/view?usp=sharing)
-+ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da aula](https://drive.google.com/file/d/113yx7PdcfmxdvURbnn39rGwPNyvKX5Ia/view?usp=sharing)
 
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada
++ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1mrTwxGDhqe8NlYsVPNrWmRTd2qC23x8D/view?usp=sharing)
 + Aula 4 - Estatística Descritiva Bivariada
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
@@ -72,7 +72,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 - Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
 - Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
 - Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
-- Tutoriais: [Instalando R e RStudio](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio - Windows](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing), [Instalando R e RStudio - MacOS](https://drive.google.com/file/d/1LLojUuXrxhynVSyd---L1M7Z63LyY4BM/view?usp=sharing)
 - Trabalho da Disciplina: [Modelo](https://drive.google.com/file/d/1B7kxKbIohAEL080SnqIE1Qxx9gIVKLLh/view?usp=sharing), [Ficha de Avaliação da Apresentação Oral](https://drive.google.com/file/d/1EcFAVg52l0ppbOGq1amXEO7O3XLZoIA0/view?usp=sharing)
 
 ***
