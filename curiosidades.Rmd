@@ -10,6 +10,14 @@ Aproveitem! <i class="far fa-smile-wink"></i>
 <h3>R/RStudio</h3>
 <br>
 
+<h4>Análise Exploratória dos Dados</h4>
+Você sabia que o R possui pacotes que realizam uma análise exploratória dos dados de maneira automática?
+Ao rodar as funções especializadas para isso, ele gera relatórios em HTML ou PDF que auxiliam a visualizar os tipos de variáveis, a existência de dados ausentes, dentre outras características.
+Aproveite o [script]() e faça a sua própria análise!
+<br>
+
+***
+
 <h4>Cheet Sheets</h4>
 As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos pacotes do R/RStudio. Todas elas foram obtidas por meio deste [link](https://www.rstudio.com/resources/cheatsheets/).
 <br>
@@ -25,12 +33,16 @@ As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos paco
 </ul>
 
 ***
-<h4>Análise Exploratória dos Dados</h4>
-Você sabia que o R possui pacotes que realizam uma análise exploratória dos dados de maneira automática?
-Ao rodar as funções especializadas para isso, ele gera relatórios em HTML ou PDF que auxiliam a visualizar os tipos de variáveis, a existência de dados ausentes, dentre outras características.
-Aproveite o [script]() e faça a sua própria análise!
+
+<h4>Diversão</h4>
+<p>Jogue e crie memes com o R. Abaixo você encontra alguns scripts com os pacotes e as funções necessárias para se divertir!
 <br>
 <br>
+
+<ul class="fa-ul">
+<li><i class="fas fa-puzzle-piece"></i> Jogos: [Script](https://drive.google.com/file/d/1UXRrFCFp1ECUrQXqdEatddNDI6jGJNHY/view?usp=sharing)</li>
+<li><i class="fas fa-puzzle-piece"></i> Memes: [Script](https://drive.google.com/file/d/1LzilvO4Jny6kYw-8A3YiqV4cebhsgSMl/view?usp=sharing)</li>
+</ul>
 
 ***
 
@@ -73,13 +85,8 @@ Aproveite os scripts e faça a sua própria arte!
 
 ***
 
-<h4>Diversão</h4>
-<p>Jogue e crie memes com o R. Abaixo você encontra alguns scripts com os pacotes e as funções necessárias para se divertir!
-<br>
-<br>
+<h4>Página Pessoal</h4>
 
-<ul class="fa-ul">
-<li><i class="fas fa-puzzle-piece"></i> Jogos: [Script](https://drive.google.com/file/d/1UXRrFCFp1ECUrQXqdEatddNDI6jGJNHY/view?usp=sharing)</li>
-<li><i class="fas fa-puzzle-piece"></i> Memes: [Script](https://drive.google.com/file/d/1LzilvO4Jny6kYw-8A3YiqV4cebhsgSMl/view?usp=sharing)</li>
-</ul>
+Já pensou em fazer sua página pessoal usando R? Com este [tutorial](https://drive.google.com/file/d/1YTQgzt0sLPZ2aBME-nw2Agmy1NvM89M3/view?usp=sharing) você tem acesso a um material prático com todo o passo-a-passo necessário.
+
 
