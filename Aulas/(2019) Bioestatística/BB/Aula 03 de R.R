@@ -1,108 +1,69 @@
-# Estatistica Descritiva Univariada 
+# Estatística Descritiva Bivariada
 
-# Processamento dos dados
+## Variáveis Qualitativa x Qualitativa
 
-## Lendo os dados
-
-setwd("C:/Users/Leticia/Google Drive/UNIRIO/Disciplinas Ministradas/2019.2/Biologia - Biomedicina")
-Titanic <- read.table("Titanic.txt", header = T)
-
-## Vendo as primeiras/últimas linhas do banco e suas dimensões
-
-head(Titanic) #ver as primeiras linhas do banco
-tail(Titanic) #ver as últimas linhas do banco
-dim(Titanic) #ver as dimensões do banco
-
-str(Titanic) #ver a estrutura dos dados - bom para ver se as variáveis foram lidas corretamente
-
-## Removendo variáveis
-
-#colocando os nomes dos passageiros como 
-# nome das linhas
-rownames(Titanic) <- Titanic$Name 
-Titanic$Name <- NULL
-Titanic$PassengerId <- NULL
-Titanic$Ticket <- NULL
-Titanic$Cabin <- NULL
-
-## Codificando corretamente as variáveis
-
-Titanic$Survived <- as.factor(Titanic$Survived) #de numérica para fator
-Titanic$Pclass <- as.factor(Titanic$Pclass) #de numérica para fator
-str(Titanic) #revendo se elas ficaram corretas
-
-## Removendo categorias
-
-#removendo as linhas em que a variável Embarked possui ""
-Titanic <- droplevels(Titanic[Titanic$Embarked != "",]) 
-str(Titanic) #vendo se está tudo ok
-
-## Vendo um resumo dos dados 
-
-summary(Titanic) #mostra um resumo
-
-# install.packages("summarytools")
-library(summarytools)
-dfSummary(Titanic)
-
-# Estatística Descritiva Univariada
-
-## Variável Qualitativa
-
-# Vamos avaliar a variável Sex como exemplo.
+# Vamos avaliar as variáveis Sex e Survived como exemplo.
 
 ### Tabela de distribuição de frequências
 
-# freq(Titanic) #faria de todas as variáveis
-freq(Titanic$Sex)
+#total, com estatística qui-quadrado
+ctable(Titanic$Sex, Titanic$Survived, prop = "t", chisq = T) 
+#perfil linha, com estatística qui-quadrado
+ctable(Titanic$Sex, Titanic$Survived, prop = "r", chisq = T) 
+#perfil coluna, sem estatística qui-quadrado
+ctable(Titanic$Sex, Titanic$Survived, prop = "c", chisq = F) 
 
 ### Gráficos
 
-#Gráfico de barras
+#Gráfico de barras múltiplas
 
 library(ggplot2)
 
 ggplot(Titanic) +
- aes(x = Sex) +
- geom_bar(fill = "#0c4c8a") +
- labs(x = "Sexo", y = "Frequência", title = "Sexo dos passageiros do Titanic") +
+ aes(x = Survived, fill = Sex) +
+ geom_bar(position = "dodge") +
+ scale_fill_viridis_d(option = "viridis") +
+ labs(x = "Sobreviveu", y = "Frequência", 
+      title = "Sobrevivência dos passageiros segundo o sexo", fill = "Sexo") +
  theme_minimal()
 
-#Gráfico de setores
-pie(table(Titanic$Sex), main = "Sexo dos passageiros do Titanic")
+#Gráfico de barras empilhadas
+ggplot(Titanic) +
+ aes(x = Survived, fill = Sex) +
+ geom_bar(position = "fill") +
+ scale_fill_viridis_d(option = "viridis") +
+ labs(x = "Sobreviveu", y = "Frequência relativa", 
+      title = "Sobrevivência dos passageiros segundo o sexo", fill = "Sexo") +
+ theme_minimal()
 
-## Variável Quantitativa
+
+## Variáveis Quantitativa x Quantitativa
+
+# Vamos avaliar as variáveis Age e Fare como exemplo.
+
+### Correlação
+
+cor(Titanic$Age, Titanic$Fare, use = "complete.obs")
+
+### Gráficos
+
+library(ggplot2)
+
+ggplot(Titanic) +
+ aes(x = Age, y = Fare) +
+ geom_point(size = 1.7, colour = "#0c4c8a") +
+ geom_smooth(span = 0.75) +
+ labs(x = "Idade", y = "Tarifa", title = "Tarifa paga e idade") +
+ theme_minimal()
+
+
+## Variáveis Quantitativa x Qualitativa
 
 ### Medidas-resumo
 
-# Vamos avaliar a variável quantitativa Age como exemplo:
+# Vamos avaliar a variável quantitativa **Age** segundo o desfecho **Survived** como exemplo:
 
-# descr(Titanic)
-descr(Titanic$Age)
-
-# Mean: média   
-# Std.Dev: desvio-padrão    
-# Min: mínimo   
-# Q1: 1o quartil     
-# Median: mediana    
-# Q3: 3o quartil    
-# Max: máximo    
-# MAD: desvio médio absoluto    
-# IQR: intervalo interquartílico    
-# CV: coeficiente de variação (não está multiplicado por 100)     
-# Skewness: assimetria    
-# SE.Skewness: erro padrão da assimetria    
-# Kurtosis: curtose     
-# N.Valid: número de observações válidas   
-# Pct.Valid: porcentagem de observações válidas    
-
-# Moda
-# install.packages("DescTools")
-library(DescTools)
-Mode(Titanic$Age, na.rm = T)
-
-# Quantis
-quantile(Titanic$Age, c(.25, .50, .75), na.rm = T)
+with(Titanic, stby(Age, Survived, descr))
 
 ### Gráficos
 
@@ -110,29 +71,40 @@ library(ggplot2)
 
 # Histograma
 ggplot(Titanic) +
- aes(x = Age) +
- geom_histogram(bins = 30L, fill = "#0c4c8a") +
- labs(x = "Idade", y = "Frequência", title = "Idade dos passageiros do Titanic") +
+ aes(x = Age, fill = Survived) +
+ geom_histogram(bins = 30L) +
+ scale_fill_hue() +
+ labs(x = "Idade", y = "Frequência", 
+      title = "Histograma das idades segundo o desfecho de sobrevivência", 
+      fill = "Sobrevivência") +
  theme_minimal()
 
 # Gráfico de densidades
 ggplot(Titanic) +
- aes(x = Age) +
- geom_density(adjust = 1L, fill = "#0c4c8a") +
- labs(x = "Idade", y = "Frequência", title = "Idade dos passageiros do Titanic") +
+ aes(x = Age, fill = Survived) +
+ geom_density(adjust = 1L) +
+ scale_fill_hue() +
+ labs(x = "Idade", y = "Densidade", 
+      title = "Gráfico de densidades das idades segundo o desfecho de sobrevivência", 
+      fill = "Sobrevivência") +
  theme_minimal()
 
 # Boxplot
 ggplot(Titanic) +
- aes(x = "", y = Age) +
- geom_boxplot(fill = "#0c4c8a") +
- labs(x = "Idade", y = "Frequência", title = "Idade dos passageiros do Titanic") +
+ aes(x = "", y = Age, fill = Survived) +
+ geom_boxplot() +
+ scale_fill_hue() +
+ labs(y = "Idade", title = "Boxplot das idades segundo o desfecho de sobrevivência", 
+      fill = "Sobrevivência") +
  theme_minimal()
 
-# Gráfico de violino
+#Gráfico de violino
 ggplot(Titanic) +
- aes(x = "", y = Age) +
- geom_violin(adjust = 1L, scale = "area", fill = "#0c4c8a") +
- labs(x = "Idade", y = "Frequência", title = "Idade dos passageiros do Titanic") +
+ aes(x = "", y = Age, fill = Survived) +
+ geom_violin(adjust = 1L, scale = "area") +
+ scale_fill_hue() +
+ labs(y = "Idade", 
+      title = "Gráfico de violino das idades segundo o desfecho de sobrevivência", 
+      fill = "Sobrevivência") +
  theme_minimal()
 
