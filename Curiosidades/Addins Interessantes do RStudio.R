@@ -4,30 +4,38 @@
 #                                                          #
 ##%######################################################%##
 
-
+# Listas de addins: 
+# https://cran.r-project.org/web/packages/addinslist/README.html
+# https://github.com/daattali/addinslist
 
 install.packages("devtools")
 
-# Addin para colocar palavras em maiúsculo/minúsculo
+# Criar uma caixa de #
+devtools::install_github("ThinkR-open/littleboxes")
+
+# Colocar palavras em maiúsculo/minúsculo
 devtools::install_github("strboul/caseconverter")
 
-# Addin para converter tipo da variável e juntar bancos de dados
+# Converter tipo da variável e juntar bancos de dados
 devtools::install_github("sarupurisailalith/commonUtilAddins")
 
-# Addin para filtrar dados
+# Filtrar dados
 devtools::install_github("kieranjmartin/viewenhance")
 
-# Addin para escolher cores
+# Escolher cores
 install.packages("colourpicker")
 
-# Addin para montar gráficos
+# Montar gráficos com ggplot
 install.packages("esquisse")
 
-# Addin para editar detalhes do gráfico
+# Editar detalhes do gráfico
 install.packages("ggThemeAssist")
 
-# Addin para acrescentar gráficos marginais
+# Acrescentar gráficos marginais
 install.packages("ggExtra")
 
-# Addin para converter tipo da variável, ordem dos fatores e criar intervalos de classe 
+# Converter tipo da variável, ordem dos fatores e criar intervalos de classe 
 install.packages("questionr")
+
+# Inserir emojis
+devtools::install_github("gadenbuie/ermoji")

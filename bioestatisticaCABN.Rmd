@@ -36,7 +36,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 <br>
 
 + Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1OPjWCY5ATuPgSNBLGdbpHxVIJMpd5m1U/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing)
-+ Aula 4 - Estatística Descritiva Bivariada
++ Aula 4 - Estatística Descritiva Bivariada:  [Slides](https://drive.google.com/file/d/1PxmumKyopcodU3FfxfW1wRvIcdtvNOu4/view?usp=sharing)
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>

@@ -13,7 +13,7 @@ Aproveitem! <i class="far fa-smile-wink"></i>
 <h4>Análise Exploratória dos Dados</h4>
 Você sabia que o R possui pacotes que realizam uma análise exploratória dos dados de maneira automática?
 Ao rodar as funções especializadas para isso, ele gera relatórios em HTML ou PDF que auxiliam a visualizar os tipos de variáveis, a existência de dados ausentes, dentre outras características.
-Aproveite o [script]() e faça a sua própria análise!
+Aproveite o [script](https://drive.google.com/file/d/1kw2owUmfzqV3ZJeUIdXrOkKia0CObO1q/view?usp=sharing) e faça a sua própria análise!
 <br>
 
 ***
@@ -83,6 +83,16 @@ Os links abaixos apresentam páginas e pacotes voltados para a contrução de gr
 
 Aproveite os scripts e faça a sua própria arte!
 
+***
+
+<h4>Materiais Didáticos</h4>
+
+Nesta lista temos diversos <i>links</i> com materiais didáticos voltados para o ensino do R.
+
+<ul class="fa-ul">
+<li><i class="fas fa-book"></i> [Coleção de livros gratuitos sobre a linguagem de programação R e ciência de dados.](https://committedtotape.shinyapps.io/freeR/)</li>
+<li><i class="fas fa-book"></i> [Xícara de chá, girafas e estatística - ensino de estatística de forma divertida usando o R](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
+</ul>
 ***
 
 <h4>Página Pessoal</h4>
