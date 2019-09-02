@@ -10,6 +10,7 @@
 
 # install.packages("devtools")
 
+
 # Criar uma caixa de #
 devtools::install_github("ThinkR-open/littleboxes")
 
@@ -36,6 +37,9 @@ install.packages("ggExtra")
 
 # Converter tipo da variável, ordem dos fatores e criar intervalos de classe 
 install.packages("questionr")
+
+# Inserir tabela
+devtools::install_github("lbusett/insert_table")
 
 # Inserir emojis
 devtools::install_github("gadenbuie/ermoji")
