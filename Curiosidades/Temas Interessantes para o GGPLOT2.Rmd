@@ -1,0 +1,225 @@
+---
+title: "Temas Interessantes para o GGPLOT2"
+author: "Leticia Raposo"
+date: "Agosto de 2019"
+output:
+  html_document:
+    css: corp-styles.css
+    df_print: paged
+    highlight: tango
+    self_contained: yes
+  pdf_document: default
+---
+<img src="unirio.png" width="100" height="100" style="position:absolute;top:1px;right:1px;" />
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Pacotes {.tabset}
+
+### HRBRTHEMES ###
+<https://github.com/hrbrmstr/hrbrthemes>
+
+```{r, warning=F, message=FALSE}
+# install.packages("hrbrthemes", repos = "https://cinc.rud.is")
+# install.packages("gcookbook")
+
+library(hrbrthemes)
+library(gcookbook)
+library(tidyverse)
+library(extrafont)
+library(ggplot2)
+
+# font_import()
+# loadfonts(device = "win")
+
+p <- ggplot(mtcars, aes(x = mpg)) +
+  geom_density(aes(group = as.factor(cyl), colour = as.factor(cyl), fill = as.factor(cyl))) + 
+  labs(x = "Eficiência do combustível (mpg)", y = "Densidade",
+       title = "Eficiência do combustível por número de cilindros",
+       subtitle = "32 modelos de automóveis (1973-1974)",
+       caption = "Dados da revista Motor Trend US de 1974.",
+       colour = "Número de cilindros",
+       fill = "Número de cilindros")  
+p + theme_ipsum() #fonte diferente
+p + theme_ipsum_rc() #fonte diferente
+p + theme_ft_rc() #fundo escuro
+p + scale_colour_ipsum() + scale_fill_ipsum() #cores diferentes
+```
+
+### FIRATHEME ###
+<https://github.com/vankesteren/firatheme> 
+  
+```{r, warning=F, message=FALSE}
+# devtools::install_github("vankesteren/firatheme")
+
+library(firatheme)
+
+p + theme_fira() #tema diferente
+p + scale_colour_fira() + scale_fill_fira() #cores diferentes
+```
+
+### GGTHEMES ###
+<https://jrnold.github.io/ggthemes/> 
+  
+```{r, warning=F, message=FALSE}
+# install.packages('ggthemes', dependencies = TRUE)
+library(ggthemes)
+
+p + theme_economist()+ 
+  scale_colour_economist() + 
+  scale_fill_economist() #tema da revista The Economist
+
+p + theme_economist_white() +
+  scale_colour_economist() + 
+  scale_fill_economist() #tema da revista The Economist (branco)
+
+p + theme_gdocs() +
+  scale_color_tableau() +
+  scale_fill_tableau() #tema do Google
+
+p + theme_wsj(base_size = 8) #tema do The Wall Street Journal
+
+p + theme_calc() #tema do LibreOffice
+
+p + theme_stata() #tema do Stata
+
+p + theme_solarized() +
+  scale_colour_solarized("blue") +
+  scale_fill_solarized("blue")
+```
+
+### ARTYFRTY ###
+<https://datarootsio.github.io/artyfarty/articles/introduction.html#available-themes>
+
+```{r, warning=F, message=FALSE}
+# devtools::install_github('datarootsio/artyfarty')
+library(artyfarty)
+
+p + theme_dataroots() 
+p + theme_farty() 
+p + theme_scientific() 
+p + theme_monokai() 
+p + theme_monokai_full()
+p + theme_flat()
+p + theme_ft()
+p + theme_retro()
+
+plot_palettes() #paletas disponíveis
+p + watermark_img("C:/Users/Leticia/Google Drive/personal-website/UNIRIO_logo.png", location="tr", alpha=.5) #marca d'agua
+```
+
+### GGTECH ###
+<https://github.com/ricardo-bion/ggtech>
+
+```{r, warning=F, message=FALSE}
+# devtools::install_github("ricardo-bion/ggtech", dependencies=TRUE)
+
+library(ggtech)
+library(extrafont)
+
+# ## Facebook 
+# font_import(pattern = 'facebook-letter-faces.ttf', prompt=FALSE)
+# 
+# ## Google 
+# font_import(pattern = 'product-sans.ttf', prompt=FALSE)
+# 
+# ## Airbnb 
+# font_import(pattern = 'Circular', prompt=FALSE)
+# 
+# ## Twitter 
+# font_import(pattern = 'pico-black.ttf', prompt=FALSE)
+# font_import(pattern = 'arista-light.ttf', prompt=FALSE)
+
+# loadfonts()
+
+p + theme_tech(theme="airbnb") + 
+  scale_color_tech(theme="airbnb") +
+  scale_fill_tech(theme="airbnb") #Airbnb
+
+p + theme_tech(theme="facebook") +
+  scale_color_tech(theme="facebook") +
+  scale_fill_tech(theme="facebook") #Facebook
+
+p + theme_tech(theme="google") + 
+  scale_color_tech(theme="google") + 
+  scale_fill_tech(theme="google") #Google
+
+p + theme_tech(theme="twitter") + 
+  scale_color_tech(theme="twitter") + 
+  scale_fill_tech(theme="twitter") #Twitter
+```
+
+### BBPLOT ###
+<https://github.com/bbc/bbplot>
+  
+```{r, warning=F, message=FALSE}
+# devtools::install_github('bbc/bbplot')
+library(bbplot)
+
+my_plot <- p + bbc_style() # Tema da BBC
+
+my_plot
+
+finalise_plot(plot_name = my_plot,
+              source = "Source: ONS",
+              save_filepath = "filename_that_my_plot_should_be_saved_to-nc.png",
+              width_pixels = 640,
+              height_pixels = 550)
+```
+
+### TVTHEMES ###
+<https://ryo-n7.github.io/2019-05-16-introducing-tvthemes-package/>
+  
+```{r, warning=F, message=FALSE}
+# devtools::install_github("Ryo-N7/tvthemes")
+library(tvthemes)
+# import_simpsons()         ## "Akbar" font
+# import_theLastAirbender() ## "Slayer" font
+# import_rickAndMorty()     ## "Get Schwifty" font
+# import_roboto_condensed() ## "Roboto Condensed" Google Font import from hrbrthemes
+# import_titillium_web()    ## "Titillium Web" Google Font import from hrbrthemes
+# import_spongeBob()        ## "Some Time Later" font
+# import_cinzel()           ## "Cinzel" font to use with 'The Palettes of Ice & Fire'
+
+## install.packages("extrafont")
+library(extrafont)
+# loadfonts() ## You need to do this at the beginning of a session.
+
+p + theme_brooklyn99(title.font = "Titillium Web",
+                     text.font = "Calibri Light") + 
+  scale_colour_brooklyn99() +
+  scale_fill_brooklyn99() #Brooklyn 99
+
+p + theme_spongeBob(title.font = "Some Time Later",
+                    text.font = "Some Time Later") + 
+  scale_colour_spongeBob() +
+  scale_fill_spongeBob() #Bob Esponja
+
+p + theme_simpsons(title.font = "Akbar",
+                   text.font = "Akbar") + 
+  scale_colour_simpsons() +
+  scale_fill_simpsons() #Simpsons
+```
+
+
+### GGPOMOLOGICAL ###
+<https://www.garrickadenbuie.com/project/ggpomological/>
+
+```{r}
+source("C:/Users/Leticia/Downloads/ggpomological-master/R/theme_pomological.R")
+source("C:/Users/Leticia/Downloads/ggpomological-master/R/extra.R")
+source("C:/Users/Leticia/Downloads/ggpomological-master/R/ggpomological-package.R")
+source("C:/Users/Leticia/Downloads/ggpomological-master/R/paint_pomological.R")
+source("C:/Users/Leticia/Downloads/ggpomological-master/R/scale_pomological.R")
+
+pomological_mtcars <- p + theme_pomological(base_family = "Homemade Apple", base_size = 12) +
+  scale_color_pomological() +
+  scale_fill_pomological()
+pomological_mtcars 
+
+paint_pomological(pomological_mtcars, res = 110, pomological_background = "C:/Users/Leticia/Downloads/ggpomological-master/inst/images/pomological_background.png")
+```
+
+
+

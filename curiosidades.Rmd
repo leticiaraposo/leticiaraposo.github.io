@@ -47,7 +47,7 @@ As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos paco
 ***
 
 <h4>Gráficos</h4>
-Os links abaixos apresentam páginas e pacotes voltados para a contrução de gráficos no R.
+Os links abaixos apresentam páginas, pacotes ou *scripts* voltados para a contrução de gráficos no R.
 <br>
 <br>
 
@@ -55,6 +55,8 @@ Os links abaixos apresentam páginas e pacotes voltados para a contrução de gr
 <li><i class="fas fa-chart-bar"></i> [Esquisse](https://dreamrs.github.io/esquisse/): add-in do RStudio que permite a contrução de gráficos por meio do pacote ggplot2 sem a necessidade de linhas de comando.</li>
 <li><i class="fas fa-chart-bar"></i> [from Data to Viz](https://www.data-to-viz.com/): árvore de decisão que leva a um conjunto de visualizações potencialmente apropriadas para representar seu conjunto de dados via R.</li>
 <li><i class="fas fa-chart-bar"></i> [Plotly](https://plot.ly/r/): pacote do R para desenvolvimento de gráficos iterativos.</li>
+<li><i class="fas fa-chart-bar"></i> [Temas para o ggplot2](https://drive.google.com/file/d/1gF96iNDtaPT-_QO5GkzEhg2mPbTmE97Y/view?usp=sharing): script contendo diversos temas diferentes para deixar os gráficos criados com o pacote ggplot2 mais bonitos.
+</li>
 <li><i class="fas fa-chart-bar"></i> [The R Graph Gallery](https://www.r-graph-gallery.com/): projeto desenvolvido por Yan Holtz para promover a visualização de dados usando o R. A idéia do site é fornecer centenas de gráficos R, sempre com o código reproduzível associado.</li>
 </ul>
 
@@ -91,12 +93,12 @@ Nesta lista temos diversos <i>links</i> com materiais didáticos voltados para o
 
 <ul class="fa-ul">
 <li><i class="fas fa-book"></i> [Coleção de livros gratuitos sobre a linguagem de programação R e ciência de dados.](https://committedtotape.shinyapps.io/freeR/)</li>
-<li><i class="fas fa-book"></i> [Xícara de chá, girafas e estatística - ensino de estatística de forma divertida usando o R](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
+<li><i class="fas fa-book"></i> [Xícara de chá, girafas e estatística - ensino de estatística de forma divertida usando o R.](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
 </ul>
 ***
 
 <h4>Página Pessoal</h4>
 
-Já pensou em fazer sua página pessoal usando R? Com este [tutorial](https://drive.google.com/file/d/1YTQgzt0sLPZ2aBME-nw2Agmy1NvM89M3/view?usp=sharing) você tem acesso a um material prático com todo o passo-a-passo necessário.
+Já pensou em fazer sua página pessoal usando o software R? Com este [tutorial](https://drive.google.com/file/d/1YTQgzt0sLPZ2aBME-nw2Agmy1NvM89M3/view?usp=sharing) você tem acesso a um material prático com todo o passo-a-passo necessário.
 
 

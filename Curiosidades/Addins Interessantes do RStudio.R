@@ -8,7 +8,7 @@
 # https://cran.r-project.org/web/packages/addinslist/README.html
 # https://github.com/daattali/addinslist
 
-install.packages("devtools")
+# install.packages("devtools")
 
 # Criar uma caixa de #
 devtools::install_github("ThinkR-open/littleboxes")
