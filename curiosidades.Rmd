@@ -13,6 +13,9 @@ Aproveitem! <i class="far fa-smile-wink"></i>
 <h4>Addins do RStudio</h4>
 
 Você sabia que o RStudio possui algumas interfaces desenvolvidas com Shiny voltadas para facilitar a execução de algumas funções? São os chamados *Addins*. [Aqui](https://github.com/daattali/addinslist) você encontra uma lista dos *addins* disponíveis e um [script](https://drive.google.com/file/d/1J56bqbUdWQZOWEyDrd591G1HpWWAErSF/view?usp=sharing) contendo alguns *addins* interessantes já separados para vocês instalar.
+<br>
+
+***
 
 <h4>Análise Exploratória dos Dados</h4>
 Você sabia que o R possui pacotes que realizam uma análise exploratória dos dados de maneira automática?
