@@ -48,6 +48,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <br>
 
 + Aula 5 - Introdução à Probabilidade [Slides](https://drive.google.com/file/d/1jjm7wcqZpk9nPfs2_L1novk_l0I5ry9N/view?usp=sharing)
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing)
 + Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**

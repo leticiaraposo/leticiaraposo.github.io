@@ -1,0 +1,16 @@
+Conjunto de dados de escolha do método contraceptivo
+
+Esse conjunto de dados é um subconjunto da Pesquisa Nacional de Prevalência de Contraceptivos da Indonésia em 1987. As amostras são mulheres casadas que não estavam grávidas ou não sabem se estavam no momento da entrevista. 
+
+Retirado de: https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice
+
+1. Idade da esposa (numérica)
+2. Educação da esposa (categórica) 1 = baixa, 2, 3, 4 = alta
+3. Educação do marido (categórica) 1 = baixa, 2, 3, 4 = alta
+4. Número de filhos já nascidos (numérica)
+5. Religião da esposa (binária) 0 = Não-Islã, 1 = Islã
+6. A esposa está trabalhando agora? (binária) 0 = Sim, 1 = Não
+7. Ocupação do marido (categórica) 1, 2, 3, 4
+8. Índice de padrão de vida (categórica) 1 = baixo, 2, 3, 4 = alto
+9. Exposição à mídia (binária) 0 = Bom, 1 = Não Bom
+10. Método contraceptivo usado (categórica) 1 = Não usa, 2 = Longo prazo, 3 = Curto prazo
