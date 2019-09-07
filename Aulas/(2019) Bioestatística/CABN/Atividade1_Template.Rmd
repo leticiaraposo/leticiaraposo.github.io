@@ -1,0 +1,106 @@
+---
+title: "Bioestatística"
+author: "Prof. Leticia Raposo"
+date: "2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+# *Abalone* 
+
+*Haliotis* é um gênero de moluscos gastrópodes marinhos da família *Haliotidae* e o único gênero catalogado desta família. Foi proposto por Linnaeus em 1758 e contém diversas espécies em águas costeiras de quase todo o mundo. Na gastronomia, o abalone é um molusco valorizado em países asiáticos. [Wikipédia](https://pt.wikipedia.org/wiki/Abalone)
+
+O banco de dados disponível no arquivo *ExercicioAbalone.txt* contém 4177 observações e 9 variáveis. 
+As descrições de cada variável são:
+
+- **sexo**: M, F, e I (infantil)
+- **comprimento**:	comprimento (maior medida da concha), em mm
+-	**diametro**:	diâmetro (perpendicular ao comprimento), em mm
+-	**altura**:	altura, em mm	
+-	**peso_total**:	peso total, em gramas
+-	**peso_sem_concha**:	peso sem a concha, em gramas
+-	**peso_intestinal**:	peso intestinal (após sangramento), em gramas
+-	**peso_concha**:	peso da concha depois de seca, em gramas
+-	**aneis**: número de anéis (1: até 10 anéis, 2: mais de 10 anéis)
+
+```{r, message=F, warning=F}
+# Carregando pacotes
+library(dplyr)
+library(summarytools)
+library(DescTools)
+```
+
+
+#### 1. Antes de iniciar a análise, verifique e responda:
+  i. (0,5 ponto) *As variáveis foram lidas (codificadas) corretamente pelo R? Se não, faça a correta codificação.*
+```{r, message=T, warning=T}
+# Dica para ler os dados:
+dados <- read.table("coloque_o_caminho_do_arquivo_aqui.txt", header = T)
+```
+
+  ii. (1,0 ponto) *Há dados ausentes? Se sim, em qual(is) variável(is)?*
+```{r, message=T, warning=T}
+
+```
+
+#### 2. Para a variável *comprimento*, pede-se:
+  i. (0,6 ponto) *Calcule a média aritmética, a mediana e a moda;*
+  ii. (0,6 ponto) *Calcule o primeiro e o terceiro quartis e também o IQR;*
+  iii. (0,8 ponto) *Calcule as medidas de dispersão (amplitude, variância, desvio-padrão e coeficiente de variação);*
+```{r, message=T, warning=T}
+
+```
+  
+  iv. (0,5 ponto) *Verifique se a distribuição é simétrica, assimétrica positiva ou assimétrica negativa;*
+```{r, message=T, warning=T}
+
+```
+  
+  v. (0,6 ponto) *Construa o histograma e o boxplot para a variável em estudo;*
+```{r, message=T, warning=T}
+
+```
+  
+  vi. (0,4 ponto) *É possível observar outliers para a variável analisada?* 
+
+#### 3. Para a variável *sexo*, pede-se:
+  i. (0,7 ponto) *Construa uma tabela de distribuição de frequências. Comente o resultado.*
+```{r, message=T, warning=T}
+
+```
+  
+  ii. (0,5 ponto) *Elabore um gráfico de barras.*
+```{r, message=T, warning=T}
+
+```
+  
+  
+#### 4. Para as variáveis *sexo* e *aneis*, pede-se:
+  i. (0,8 ponto) *Construa uma tabela de contingência com perfil linha e outra com perfil coluna.*
+```{r, message=T, warning=T}
+
+```
+  
+  iii. (1,0 ponto) *Contrua um gráfico com barras múltiplas e outro com barras empilhadas.*
+```{r, message=T, warning=T}
+
+```
+  
+  
+#### 5. Para as variáveis *diametro* e *peso_concha*:
+  i. (1,0 ponto) *Construa um gráfico de dispersão e avalie se há indícios de relação entre as variáveis.*
+```{r, message=T, warning=T}
+
+```
+  
+
+#### 6. (1,0 ponto) Construa boxplots para a variável *peso_intestinal*, segundo a variável *aneis*. Descreva o que é observado no gráfico.
+```{r, message=T, warning=T}
+
+```
+
+
+**DESAFIO!** (Bônus de 1,0 ponto) Construa um gráfico não ensinado em sala de aula utilizando alguma(s) variável(is) do banco de dados. Explique o que o gráfico mostra.
