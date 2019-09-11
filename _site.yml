@@ -6,9 +6,13 @@ navbar:
     - icon: fa-home fa-lg
       text: "Início"
       href: inicio.html
-    - icon: fa-file-alt fa-lg
-      text: "Publicações"
-      href: publicacoes.html
+    - icon: fa-search fa-lg
+      text: "Pesquisa"
+      menu:
+        - text: "Publicações"
+          href: publicacoes.html
+        - text: "Projetos de Pesquisa"
+          href: pesquisa.html
     - icon: fa-chalkboard-teacher fa-lg
       text: "Ensino"
       menu:

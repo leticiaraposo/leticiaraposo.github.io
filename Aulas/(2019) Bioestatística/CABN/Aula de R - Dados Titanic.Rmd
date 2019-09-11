@@ -1,0 +1,260 @@
+---
+title: "Aula de R - Dados Titanic"
+author: "Letícia Raposo"
+date: "6 de setembro de 2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Este conjunto de dados fornece informações sobre o destino dos passageiros na viagem inaugural fatal do transatlântico 'Titanic', resumidos de acordo com o status econômico (classe), sexo, idade e sobrevivência.
+
+## Preparando os dados
+
+Nesta primeira parte, vamos ler os dados e prepará-los para serem analisados. 
+
+### Carregando os pacotes necessários
+
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(summarytools)
+library(DescTools)
+# Esses pacotes já devem estar instalados no computador. Se não estiverem, use a aba "Packages" no quadro inferior à direita.
+```
+
+### Definindo o diretório
+
+```{r, warning=FALSE, message=FALSE}
+getwd() # Essa função informa o diretório atual
+setwd("C:/Users/Leticia/Google Drive/UNIRIO/Disciplinas Ministradas/2019.2/Ciências Ambientais - Biológicas - da Natureza") # Essa função define o diretório
+```
+
+### Lendo os dados
+
+```{r, warning=FALSE, message=FALSE}
+# A função read.table() lê arquivos no formato .txt.
+dados <- read.table("C:/Users/Leticia/Google Drive/UNIRIO/Disciplinas Ministradas/2019.2/Ciências Ambientais - Biológicas - da Natureza/Titanic.txt")
+
+# Dimensão dos dados
+dim(dados)
+
+# Estrutura dos dados
+str(dados)
+```
+
+### Excluindo variáveis
+
+```{r, warning=FALSE, message=FALSE}
+# Para excluir uma variável, basta atribuírmos NULL a ela.
+dados$PassengerId <- NULL
+dados$Ticket <- NULL
+dados$Cabin <- NULL
+```
+
+### Atribuindo nome às linhas
+
+```{r, warning=FALSE, message=FALSE}
+# Nesta etapa estamos atribuindo a variável Name como nome das linhas e depois excluindo-a.
+row.names(dados) <- dados$Name
+dados$Name <- NULL
+```
+
+### Convertendo algumas variáveis para fator
+
+```{r, warning=FALSE, message=FALSE}
+dados$Survived <- as.factor(dados$Survived)
+dados$Pclass <- as.factor(dados$Pclass)
+```
+
+### Resumo dos dados
+
+```{r}
+# Essa função apresenta um resumo inicial dos dados. Podemos observar a presença de valores ausentes (NA) na variável Age.
+summary(dados)
+```
+
+# Estatística Descritiva
+
+## Univariada
+
+### Qualitativa
+
+Vamos utilizar a variável Sex como exemplo.
+
+#### Tabela de distribuição de frequências
+
+```{r, warning=FALSE, message=FALSE}
+library(summarytools)
+
+# A função freq cria uma tabela de distribuição de frequências
+freq(dados$Sex)
+freq(dados) # Para todas as variáveis qualitativas e quantitativa discreta
+```
+
+#### Gráfico de Barras
+
+```{r, warning=FALSE, message=FALSE}
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = Sex) +
+ geom_bar(fill = "#6a51a3") +
+ labs(x = "Sexo", y = "Frequência", title = "Distribuição da variável Sexo", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ coord_flip()
+```
+
+### Quantitativa
+
+Vamos utilizar a variável Age como exemplo.
+
+#### Medidas-resumo
+
+```{r, warning=FALSE, message=FALSE}
+descr(dados$Age) # Essa função calcula quase todas as medidas-resumo de variáveis quantitativas
+
+library(DescTools)
+Mode(dados$Age, na.rm = T) # moda
+
+# Caso não tenha o pacote summarytools, pode-se utilizar os comandos abaixo:
+mean(dados$Age, na.rm = T) # média
+median(dados$Age, na.rm = T) # mediana
+sd(dados$Age, na.rm = T) # desvio-padrão
+var(dados$Age, na.rm = T) # variância
+quantile(dados$Age, na.rm = T) # quartis
+IQR(dados$Age, na.rm = T) # IQR
+sd(dados$Age, na.rm = T)/mean(dados$Age, na.rm = T)*100 # CV
+```
+
+#### Boxplot, Histograma e Densidade
+
+```{r, warning=FALSE, message=FALSE}
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = "", y = Age) +
+ geom_boxplot(fill = "#f0f921") +
+ labs(x = "", y = "Idade", title = "Distribuição da variável Idade", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+ggplot(dados) +
+ aes(x = Age) +
+ geom_histogram(bins = 30L, fill = "#f0f921") +
+ labs(x = "Idade", y = "Frequência", title = "Distribuição da variável Idade", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+ggplot(dados) +
+ aes(x = Age) +
+ geom_density(adjust = 1L, fill = "#f0f921") +
+ labs(x = "Idade", y = "Densidade", title = "Distribuição da variável Idade", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+```
+
+## Bivariada
+
+### Qualitativa x Qualitativa
+
+Vamos utilizar as variáveis Sex e Survived como exemplo.
+
+#### Tabelas de Contingência
+
+```{r, warning=FALSE, message=FALSE}
+ctable(dados$Sex, dados$Survived, prop = "r") # Perfil linha
+ctable(dados$Sex, dados$Survived, prop = "c") # Perfil coluna
+```
+
+#### Gráficos de Barras Múltiplas e Empilhadas
+
+```{r, warning=FALSE, message=FALSE}
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = Sex, fill = Survived) +
+ geom_bar(position = "dodge") +
+ labs(x = "Sexo", y = "Frequência", title = "Distribuição da variável Sexo segundo o desfecho de sobrevivência", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+ggplot(dados) +
+ aes(x = Sex, fill = Survived) +
+ geom_bar(position = "fill") +
+ labs(x = "Sexo", y = "Frequência", title = "Distribuição da variável Sexo segundo o desfecho de sobrevivência", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+```
+
+### Quantitativa x Quantitativa
+
+Vamos utilizar as variáveis Age e Fare como exemplo.
+
+#### Gráfico de Dispersão
+
+```{r, warning=FALSE, message=FALSE}
+dados <- dados %>%
+ filter(!(Embarked %in% ""))
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = Age, y = Fare) +
+ geom_point(size = 1L, colour = "#0c4c8a") +
+ geom_smooth(span = 0.75) +
+ labs(x = "Idade", y = "Tarifa", title = "Relação das variáveis Idade e Tarifa", subtitle = "Passageiros do Titanic", caption = "Dados de 1912") +
+ theme_minimal()
+```
+
+### Quantitativa x Qualitativa
+
+Vamos utilizar as variáveis Age e Survived como exemplo.
+
+#### Medidas-resumo
+
+```{r, warning=FALSE, message=FALSE}
+with(dados, stby(Age, Survived, descr))
+```
+
+#### Boxplot, Histograma e Densidade
+
+```{r, warning=FALSE, message=FALSE}
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = "", y = Age, fill = Survived) +
+ geom_boxplot() +
+ scale_fill_hue() +
+ labs(x = " ", y = "Idade", title = "Distribuição da idade segundo o desfecho de sobrevivência", subtitle = "Passageiros do Titanic", caption = "Dados de 1912", fill = "Sobrevivência") +
+ theme_minimal()
+
+ggplot(dados) +
+ aes(x = Age, fill = Survived) +
+ geom_histogram(bins = 30L) +
+ scale_fill_hue() +
+ labs(x = "Idade", y = "Frequência", title = "Distribuição da idade segundo o desfecho de sobrevivência", subtitle = "Passageiros do Titanic", caption = "Dados de 1912", fill = "Sobrevivência") +
+ theme_minimal()
+
+ggplot(dados) +
+ aes(x = Age, fill = Survived) +
+ geom_density(adjust = 1L) +
+ scale_fill_hue() +
+ labs(x = "Idade", y = "Densidade", title = "Distribuição da idade segundo o desfecho de sobrevivência", subtitle = "Passageiros do Titanic", caption = "Dados de 1912", fill = "Sobrevivência") +
+ theme_minimal()
+```
+
