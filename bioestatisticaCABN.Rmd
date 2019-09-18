@@ -42,23 +42,22 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
 
-+ Aula 5 - Introdução à Probabilidade
-+ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade
++ Aula 5 - Introdução à Probabilidade / Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1hCjnU-ZiNsHr0k6JUdWeF1ausDjFtJMN/view?usp=sharing)
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
 
-+ Aula 7 - Amostragem
-+ Aula 8 - Estimação de Parâmetros
-+ Aula 9 - Testes de Hipóteses I
-+ Aula 10 - Testes de Hipóteses II
-+ Aula 11 - Testes de Hipóteses III
++ Aula 6 - Amostragem
++ Aula 7 - Estimação de Parâmetros
++ Aula 8 - Testes de Hipóteses I
++ Aula 9 - Testes de Hipóteses II
++ Aula 10 - Testes de Hipóteses III
 
 **PARTE VI – MODELOS LINEARES GENERALIZADOS**
 <br>
 
-+ Aula 12 - Modelos de Regressão Simples e Múltipla
-+ Aula 13 - Modelos de Regressão Logística
++ Aula 11 - Modelos de Regressão Simples e Múltipla
++ Aula 12 - Modelos de Regressão Logística
 
 ***
 
