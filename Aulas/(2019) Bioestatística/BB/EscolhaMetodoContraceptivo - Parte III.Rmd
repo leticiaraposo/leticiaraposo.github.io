@@ -1,0 +1,160 @@
+---
+title: "Escolha do Método Contraceptivo"
+author: "Leticia Raposo"
+date: "6 de setembro de 2019"
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Conjunto de dados de escolha do método contraceptivo
+
+Esse conjunto de dados é um subconjunto da Pesquisa Nacional de Prevalência de Contraceptivos da Indonésia em 1987. As amostras são mulheres casadas que não estavam grávidas ou não sabem se estavam no momento da entrevista. 
+
+Retirado de: <https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice>
+
+- *1. Idade da esposa (**numérica**)*
+- *2. Educação da esposa (**categórica**) 1 = baixa, 2, 3, 4 = alta*
+- *3. Educação do marido (**categórica**) 1 = baixa, 2, 3, 4 = alta*
+- *4. Número de filhos já nascidos (**numérica**)*
+- *5. Religião da esposa (**binária**) 0 = Não-Islã, 1 = Islã*
+- *6. A esposa está trabalhando agora? (**binária**) 0 = Sim, 1 = Não*
+- *7. Ocupação do marido (**categórica**) 1, 2, 3, 4*
+- *8. Índice de padrão de vida (**categórica**) 1 = baixo, 2, 3, 4 = alto*
+- *9. Exposição à mídia (**binária**) 0 = Bom, 1 = Não Bom*
+- *10. Método contraceptivo usado (**categórica**) 1 = Não usa, 2 = Longo prazo, 3 = Curto prazo*
+
+## Lendo os dados
+
+```{r, message=FALSE,warning=FALSE}
+library(readxl)
+dados <- read_excel("C:/Users/Leticia/Google Drive/UNIRIO/Disciplinas Ministradas/2019.2/Biologia - Biomedicina/EscolhaMetodoContraceptivo.xlsx")
+```
+
+## Verificando as variáveis
+
+```{r, message=FALSE,warning=FALSE}
+str(dados)
+dados$EducacaoEsposa <- as.factor(dados$EducacaoEsposa)
+dados$EducacaoMarido <- as.factor(dados$EducacaoMarido)
+dados$ReligiaoEsposa <- as.factor(dados$ReligiaoEsposa)
+dados$EsposaTrabalha <- as.factor(dados$EsposaTrabalha)
+dados$OcupacaoMarido <- as.factor(dados$OcupacaoMarido)
+dados$PadraoVida <- as.factor(dados$PadraoVida)
+dados$ExposicaoMidia <- as.factor(dados$ExposicaoMidia)
+dados$MetodoContraceptivo <- as.factor(dados$MetodoContraceptivo)
+```
+
+## Vendo um resumo das variáveis
+
+```{r, message=FALSE,warning=FALSE}
+summary(dados) #Não há dados ausentes
+```
+
+# Hipóteses
+
+1. Será que a religião influencia no número de filhos?
+2. O padrão de vida está relacionado com o uso de métodos contraceptivos?
+3. Mulheres com mais idade possuem um maior número de filhos? 
+4. A religião está associada com o nível de escolaridade?
+5. A exposição à mídia influencia no uso de métodos contraceptivos?
+
+## Análise das variáveis
+
+```{r, message=F, warning=F}
+library(summarytools)
+print(descr(dados), method = 'render')
+print(freq(dados), method = 'render')
+```
+
+## Religião (Qualitativa) x N. filhos (Quantitativa)
+
+```{r, message=FALSE,warning=FALSE}
+# Boxplot
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = "", y = NumeroFilhos, fill = ReligiaoEsposa) +
+ geom_boxplot() +
+ scale_fill_brewer(palette = "Accent") +
+ theme_minimal()
+
+# Gráfico de Densidades
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = NumeroFilhos, fill = ReligiaoEsposa) +
+ geom_density(adjust = 1L) +
+ scale_fill_hue() +
+ theme_minimal()
+```
+
+## Padrão de vida (Qualitativa) x Métodos Contraceptivos (Qualitativa)
+
+```{r, message=FALSE,warning=FALSE}
+library(summarytools)
+
+ctable(dados$PadraoVida, dados$MetodoContraceptivo, prop = "r") # perfil linha
+ctable(dados$PadraoVida, dados$MetodoContraceptivo, prop = "c") # perfil coluna
+
+# Substituindo os níveis da variável MetodoContraceptivo para apenas Usa e Não Usa
+levels(dados$MetodoContraceptivo) <- c("NãoUsa", "Usa", "Usa")
+
+# Avaliando o teste qui-quadrado
+ctable(dados$PadraoVida, dados$MetodoContraceptivo, prop = "r", chisq = T)
+
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = PadraoVida, fill = MetodoContraceptivo) +
+ geom_bar(position = "fill") +
+ scale_fill_hue() +
+ theme_minimal()
+```
+
+## Idade (Quantitativa) x N. de filhos (Quantitativa)
+
+```{r, message=FALSE,warning=FALSE}
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = IdadeEsposa, y = NumeroFilhos) +
+ geom_point(size = 1L, colour = "#0c4c8a") +
+ geom_smooth(span = 0.75) +
+ theme_minimal()
+
+cor(dados$IdadeEsposa,dados$NumeroFilhos)
+```
+
+## Religião (Qualitativa) x Escolaridade (Qualitativa)
+
+```{r, message=FALSE,warning=FALSE}
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = EducacaoEsposa, fill = ReligiaoEsposa) +
+ geom_bar(position = "fill") +
+ scale_fill_hue() +
+ theme_minimal()
+
+ctable(dados$EducacaoEsposa, dados$ReligiaoEsposa, chisq = T)
+```
+
+## Exposição à mídia (Qualitativa) x Métodos contraceptivos (Qualitativa)
+
+```{r, message=FALSE,warning=FALSE}
+library(ggplot2)
+
+ggplot(dados) +
+ aes(x = ExposicaoMidia, fill = MetodoContraceptivo) +
+ geom_bar(position = "fill") +
+ scale_fill_hue() +
+ theme_minimal()
+
+ctable(dados$ExposicaoMidia, dados$MetodoContraceptivo, chisq = T)
+```
+
