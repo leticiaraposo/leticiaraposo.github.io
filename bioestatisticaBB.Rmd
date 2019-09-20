@@ -50,7 +50,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 + Aula 5 - Introdução à Probabilidade:  [Slides](https://drive.google.com/file/d/1jjm7wcqZpk9nPfs2_L1novk_l0I5ry9N/view?usp=sharing)
 + Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I](https://drive.google.com/file/d/1xYSMDsv1dOyueOUTWSTWbXHyG4ZJ84lt/view?usp=sharing)
 + Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1IK_qCyQSIxu5xHvSZDBtd5f6w6_Namhx/view?usp=sharing)
-+ Aula Extra - Prática no R - [RMarkdown - Parte II](), [Rostos de Chernoff]()
++ Aula Extra - Prática no R - [RMarkdown - Parte II](https://drive.google.com/file/d/1wbRoAOBqBtGA0KxDgboQQxB_lJw_cxxH/view?usp=sharing), [Rostos de Chernoff](https://drive.google.com/file/d/1o0-bZHmwwutQlrN9N9E63O1scefHr3qy/view?usp=sharing)
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
