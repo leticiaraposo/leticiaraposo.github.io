@@ -62,6 +62,12 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 
 ***
 
+<h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
+
+- Lista 1: [Exercícios](https://drive.google.com/file/d/1DbBYwkY-tHlq2f2FLlffpixcUjONfl7o/view?usp=sharing)
+
+***
+
 <h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
 
 - Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
