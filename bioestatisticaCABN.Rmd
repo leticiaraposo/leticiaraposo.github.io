@@ -48,7 +48,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
 
-+ Aula 6 - Amostragem
++ Aula 6 - Amostragem: [Slides](https://drive.google.com/file/d/1PlKxZakTDJZAx49lIrzu3ATNYbJOQgWQ/view?usp=sharing)
 + Aula 7 - Estimação de Parâmetros
 + Aula 8 - Testes de Hipóteses I
 + Aula 9 - Testes de Hipóteses II
