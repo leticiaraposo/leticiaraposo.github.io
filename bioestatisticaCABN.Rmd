@@ -43,7 +43,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 <br>
 
 + Aula 5 - Introdução à Probabilidade / Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1hCjnU-ZiNsHr0k6JUdWeF1ausDjFtJMN/view?usp=sharing)
-+ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing)
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [Script](https://drive.google.com/file/d/1W3zsN5M-t2mZkobMLeJ_GvdSCO8ijwF_/view?usp=sharing)
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
