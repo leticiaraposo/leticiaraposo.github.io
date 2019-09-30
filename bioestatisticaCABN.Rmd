@@ -94,7 +94,7 @@ SETEMBRO
 <br>
 <ul class="fa-ul">
 <li><i class="far fa-calendar-alt"></i> **06/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário</span>
-<li><i class="far fa-calendar-alt"></i> **20/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1uIh--K5M0uIAN_Fn0skCn1o9wnUgj5aE/view?usp=sharing), [Dados](https://drive.google.com/file/d/1pDrYEEwz7VdCp706vdDxw4oA196JelPG/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1q4VFC0Prn-auxQL9tjywd9v3_8HALPCb/view?usp=sharing), [Gabarito]()</span>
+<li><i class="far fa-calendar-alt"></i> **20/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1uIh--K5M0uIAN_Fn0skCn1o9wnUgj5aE/view?usp=sharing), [Dados](https://drive.google.com/file/d/1pDrYEEwz7VdCp706vdDxw4oA196JelPG/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1q4VFC0Prn-auxQL9tjywd9v3_8HALPCb/view?usp=sharing), [Gabarito](https://drive.google.com/file/d/17gdKMCu8YKjmPBDY_RMDSWF15NgEclc7/view?usp=sharing), [Notas](https://drive.google.com/file/d/1QbALer0qmEm9V7qNU_UpLkD0eRx2pa4J/view?usp=sharing)</span>
 <li><i class="far fa-calendar-alt"></i> **27/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados e da introdução + objetivos</span>
 </ul>
 <br>
@@ -102,7 +102,7 @@ SETEMBRO
 OUTUBRO
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **04/10/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1</span>
+<li><i class="far fa-calendar-alt"></i> **04/10/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1: [Lista dos Alunos do 1o Horário](https://drive.google.com/file/d/1MzwxWOxqnhFn6JP-es5UdkCnNtZ8ChzE/view?usp=sharing)</span>
 <li><i class="far fa-calendar-alt"></i> **11/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
 <li><i class="far fa-calendar-alt"></i> **18/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
 <li><i class="far fa-calendar-alt"></i> **25/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
