@@ -72,8 +72,8 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
 
 - [Resolução do Exercício da Aula de Teste Diagnóstico](https://drive.google.com/file/d/1E17M_R9mSS7xBazIwvQ9robj2OaKTNIp/view?usp=sharing)
-- Lista 1: [Exercícios](https://drive.google.com/file/d/1ecN2Y6eUQCDMxTE1C8Sn1yiKxCZ5h4jh/view?usp=sharing)
-- Lista 2: [Exercícios](https://drive.google.com/file/d/1ZfQNDsLxQQTCKb_5TJ_KGoWyLrdCTqMJ/view?usp=sharing)
+- Lista 1: [Exercícios](https://drive.google.com/file/d/1ecN2Y6eUQCDMxTE1C8Sn1yiKxCZ5h4jh/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1iSAVPg4llZeCl3MGAy4J4GRPUc6RLbgm/view?usp=sharing)
+- Lista 2: [Exercícios](https://drive.google.com/file/d/1ZfQNDsLxQQTCKb_5TJ_KGoWyLrdCTqMJ/view?usp=sharing), [Resolução](https://drive.google.com/file/d/17op_BYDSiBh879fO9BPVqqNJPnnSzuj2/view?usp=sharing)
 
 ***
 
