@@ -7,6 +7,10 @@ Dicas, páginas interessantes, conteúdo informativo... tudo que envolve R, esta
 
 Aproveitem! <i class="far fa-smile-wink"></i>
 
+[1](https://drive.google.com/file/d/1OG2D2dRLaHh9DhbMEOALBLMcWgNlqKOL/view?usp=sharing)
+[2](https://drive.google.com/file/d/1UtfeYH4pefurdV6DB1Q9kTFcMYh9xYrh/view?usp=sharing)
+[3](https://drive.google.com/file/d/14BFlPtniJgRv30ejNpjmpmFVpA7wPr3Z/view?usp=sharing)
+
 <h3>R/RStudio</h3>
 <br>
 

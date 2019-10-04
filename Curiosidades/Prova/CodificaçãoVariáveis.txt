@@ -1,0 +1,7 @@
+Codificação das Variáveis
+
+desfecho -  Morreu e Sobreviveu
+idade - em anos completos
+sexo - 1: Masculino; 2: Feminino
+tamanho_figado - 1: Normal; 2: Grande
+albumina: valores em g/dL
