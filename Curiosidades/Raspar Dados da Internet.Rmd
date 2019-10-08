@@ -1,0 +1,271 @@
+---
+title: "Raspando Dados da Internet"
+author: "Letícia"
+date: "8 de outubro de 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Tutorial
+
+Este tutorial tem como objetivo apresentar uma forma de raspar dados da internet. Todo o código e exemplo foram baseados em <https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/>.
+
+Vamos começar o tutorial baixando e carregando o pacote **rvest**:
+
+```{r, warning=FALSE, message=FALSE}
+# install.packages('rvest')
+library('rvest')
+```
+
+Para este exemplo, vamos raspar dados do IMDb dos 100 filmes mais populares de 2018. As informações a serem extraídas são:
+
+- *Rank*: a classificação do filme de 1 a 100 na lista dos 100 filmes mais populares lançados em 2018.
+- *Title*: o título do longa-metragem.
+- *Description*: a descrição do longa-metragem.
+- *Runtime*: a duração do filme.
+- *Genre*: o gênero do longa-metragem,
+- *Rate*: a classificação IMDb do longa-metragem.
+- *Metascore*: o metascore no site da IMDb para o longa-metragem.
+- *Votes*: votos a favor do longa-metragem.
+- *Gross_Earning_in_Mil*: os ganhos brutos do longa-metragem em milhões.
+- *Director*: O diretor principal do longa-metragem. Observe que, no caso de vários diretores, pegaremos apenas o primeiro.
+- *Actor*: O ator principal do filme. Observe que, no caso de vários atores, pegaremos apenas o primeiro.
+
+Para isso, primeiramente precisamos especificar a url de onde extrairemos os dados:
+
+```{r, warning=FALSE, message=FALSE}
+url <- 'https://www.imdb.com/search/title/?count=100&release_date=2018,2018&title_type=feature'
+```
+
+Vamos agora ler o código HTML do site:
+
+```{r, warning=FALSE, message=FALSE}
+webpage <- read_html(url)
+```
+
+Para facilitar a tarefa, vamos utilizar uma extensão no Chrome chamada Selector Gadget. Essa extensão pode ser encontrada [aqui](https://selectorgadget.com/). Ela irá fornecer o código em HTML de partes específicas do site.
+Para isso, basta clicar na lupa que se encontra no canto superior direito e, em seguida, na informação desejada. Na imagem abaixo, vemos um exemplo em relação à informação "Rank". Ao clicar no número 1, os demais ranqueamentos são selecionados e a informação desejada para a raspagem aparece no final da tela.
+![WebScrapping](C:/Users/Leticia/Desktop/WebScrapping.png)
+O texto que aparece na caixa é então colocado dentro da função "html_nodes". 
+
+```{r, warning=FALSE, message=FALSE}
+# Usando seletores de CSS para raspar a seção de ranqueamento
+rank_data_html <- html_nodes(webpage, '.text-primary')
+
+# Convertendo os dados do ranqueamento em texto
+rank_data <- html_text(rank_data_html)
+
+# Vamos dar uma olhada na informação coletada
+head(rank_data)
+```
+
+Podemos observar que junto da colocação apareceu um ponto (.). Precisamos retirar esse caracter.
+
+```{r, warning=FALSE, message=FALSE}
+# Convertendo os ranqueamentos para valores numéricos
+rank_data <- as.numeric(rank_data)
+
+# Verificando os ranqueamentos
+head(rank_data)
+```
+
+Vamos agora pegar o título dos filmes. Para isso, repetimos a tarefa de clicar sobre a região que contém a informação de interesse. Caso alguma outra região fique selecionada, basta clicar sobre ela para desmarcá-la. Para todas as outras informações, sempre usaremos as funções "html_nodes" e "html_text".
+
+```{r, warning=FALSE, message=FALSE}
+title_data_html <- html_nodes(webpage, '.lister-item-header a')
+title_data <- html_text(title_data_html)
+head(title_data)
+```
+
+Vamos agora pegar várias informações e processá-las se necessário:
+
+```{r, warning=FALSE, message=FALSE}
+# Descrição
+description_data_html <-
+  html_nodes(webpage, '.ratings-bar+ .text-muted')
+description_data <- html_text(description_data_html)
+head(description_data)
+  
+# Retirando o \n da frente das frases
+description_data <- gsub("\n", "", description_data)
+head(description_data)
+  
+# Tempo do filme
+runtime_data_html <- html_nodes(webpage, '.text-muted .runtime')
+runtime_data <- html_text(runtime_data_html)
+head(runtime_data)
+  
+# Retirando o "min" e convertendo para número
+runtime_data <- gsub(" min", "", runtime_data)
+runtime_data <- as.numeric(runtime_data)
+head(runtime_data)
+  
+# Gênero
+genre_data_html <- html_nodes(webpage, '.genre')
+genre_data <- html_text(genre_data_html)
+head(genre_data)
+  
+# Retirando o \n e espaços extras
+genre_data <- gsub("\n", "", genre_data)
+genre_data <- gsub(" ", "", genre_data)
+head(genre_data)
+  
+# Pontuação IMDb
+rating_data_html <-
+  html_nodes(webpage, '.ratings-imdb-rating strong')
+rating_data <- html_text(rating_data_html)
+head(rating_data)
+  
+# Convertendo para número
+rating_data <- as.numeric(rating_data)
+head(rating_data)
+  
+# Votos
+votes_data_html <-
+  html_nodes(webpage, '.sort-num_votes-visible span:nth-child(2)')
+votes_data <- html_text(votes_data_html)
+head(votes_data)
+  
+# Retirando vírgulas e convertendo para número
+votes_data <- gsub(",", "", votes_data)
+votes_data <- as.numeric(votes_data)
+head(votes_data)
+  
+# Diretor
+directors_data_html <-
+  html_nodes(webpage, '.text-muted+ p a:nth-child(1)')
+directors_data <- html_text(directors_data_html)
+head(directors_data)
+  
+# Convertendo para fatores
+directors_data <- as.factor(directors_data)
+  
+# Ator
+actors_data_html <-
+  html_nodes(webpage, '.lister-item-content .ghost+ a')
+actors_data <- html_text(actors_data_html)
+head(actors_data)
+  
+# Convertendo para fatores
+actors_data <- as.factor(actors_data)
+```
+
+Vamos agora pegar a informação "Metascore":
+
+```{r, warning=FALSE, message=FALSE}
+metascore_data_html <- html_nodes(webpage, '.metascore')
+metascore_data <- html_text(metascore_data_html)
+head(metascore_data)
+
+# Removendo os espaços
+metascore_data <- gsub(" ", "", metascore_data)
+
+# Verificando se há 100 valores
+length(metascore_data)
+```
+
+Podemos observar que, para alguns filmes, este valor está ausente. Logo, precisamos fazer uma coleta dessa informação com maior cuidado. Vamos fazer uma inspeção manualmente no site. 
+É possível observar que os filmes das posições 36 e 68 não possuem o "Metascore". Logo, vamos fazer o seguinte processamento:
+
+```{r, warning=FALSE, message=FALSE}
+for (i in c(36, 68)) {
+  a <- metascore_data[1:(i - 1)]
+  b <- metascore_data[i:length(metascore_data)]
+  metascore_data <- append(a, list("NA"))
+  metascore_data <- append(metascore_data, b)
+  
+}
+```
+
+Vamos também converter essa pontuação para número:
+
+```{r, warning=FALSE, message=FALSE}
+metascore_data <- as.numeric(metascore_data)
+length(metascore_data)
+summary(metascore_data)
+```
+
+Vamos também ter os mesmos cuidados para a informação de ganhos brutos.
+
+```{r, warning=FALSE, message=FALSE}
+gross_data_html <- html_nodes(webpage, '.ghost~ .text-muted+ span')
+gross_data <- html_text(gross_data_html)
+head(gross_data)
+
+# Retirando os símbolos $ e M
+gross_data <- gsub("M", "", gross_data)
+gross_data <- substring(gross_data, 2, 6)
+
+# Checando se os dados estão completos
+length(gross_data)
+
+# Preenchendo os ausentes com NA
+for (i in c(12, 16, 33, 34, 36, 41, 49, 51, 52, 66, 67, 68, 71, 73, 74, 90, 95)) {
+a <- gross_data[1:(i - 1)]
+b <- gross_data[i:length(gross_data)]
+gross_data <- append(a, list("NA"))
+gross_data <- append(gross_data, b)
+
+}
+
+# Convertendo para numeral
+gross_data <- as.numeric(gross_data)
+length(gross_data)
+summary(gross_data)
+```
+
+Vamos agora juntar todas essas informações em um data frame:
+
+```{r, warning=FALSE, message=FALSE}
+
+movies_df <- data.frame(
+  Rank = rank_data,
+  Title = title_data,
+  Description = description_data,
+  Runtime = runtime_data,
+  Genre = genre_data,
+  Rating = rating_data,
+  Metascore = metascore_data,
+  Votes = votes_data,
+  Gross_Earning_in_Mil = gross_data,
+  Director = directors_data,
+  Actor = actors_data
+  )
+str(movies_df)
+```
+
+Agora que temos o banco de dados prontos, vamos trabalhar com a variável "Genre". Como ela possui mais de um valor, precisamos converter essa informação para "Sim" e "Não" conforme o gênero do filme.
+Por exemplo, se o filme estiver classifcado como ação, comédia e crime, ele irá receber o valor 1 para esses gêneros e 0 para os demais.
+Primeiro, vamos identificar todos os gêneros existentes neste banco de dados:
+
+```{r, warning=FALSE, message=FALSE}
+# Convertendo a variável "Genre" em caracter
+movies_df$Genre <- as.character(movies_df$Genre)
+
+# Separando todos os gêneros
+genre <- strsplit(movies_df$Genre, split = ',', fixed = TRUE)
+
+# Encontrando os gêneros únicos
+names_genre <- unique(unlist(genre, use.names = F))
+names_genre
+```
+
+Agora vamos criar as variáveis de cada gênero:
+
+```{r, warning=FALSE, message=FALSE}
+# Criando as variáveis de cada gênero para atribuir valores 0 (não) e 1 (sim)
+movies_df[, names_genre] <- 0
+
+for (i in 1:dim(movies_df)[1]) {
+movies_df[i, names(movies_df) %in% genre[[i]]] <- 1
+}
+```
+
+Por fim, podemos excluir a variável "Genre" original:
+
+```{r, warning=FALSE, message=FALSE}
+movies_df$Genre <- NULL
+```

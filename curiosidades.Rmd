@@ -114,4 +114,8 @@ Nesta lista temos diversos <i>links</i> com materiais didáticos voltados para o
 
 Já pensou em fazer sua página pessoal usando o software R? Com este [tutorial](https://drive.google.com/file/d/1YTQgzt0sLPZ2aBME-nw2Agmy1NvM89M3/view?usp=sharing) você tem acesso a um material prático com todo o passo-a-passo necessário.
 
+***
 
+<h4>Raspagem de Dados da Internet (Web Scraping)</h4>
+
+Se você tem interesse em aprender a raspar dados da internet com o R, este tutorial é para você. Clique neste [link](https://drive.google.com/file/d/1eRjP3m8HTcfypwqR_VCzR99s-rHrYKwV/view?usp=sharing), baixe o Rmarkdown e acompanhe o passo-a-passo com um exemplo bem divertido.
