@@ -58,7 +58,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 + Aula 7 - Amostragem: [Slides](https://drive.google.com/file/d/1H73gng1tp6tI3LAZ2Sn-KuvWpg008_p-/view?usp=sharing)
 + Aula Extra - Prática no R - [RMarkdown - Parte III](https://drive.google.com/file/d/1TLW-VuBH4Ze8_J-T3eyTXxwsHBxoaQsX/view?usp=sharing)
 + Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides](https://drive.google.com/file/d/1WLE2gpWhPRMP0tZe6IEPKY6bfWk2z2np/view?usp=sharing)
-+ Aula 10 - Testes de Hipóteses II
++ Aula 10 - Testes de Hipóteses II: [Slides](), [Script - Aluno](https://drive.google.com/file/d/1HBeqLQgvHxNiRXpCfQ8yR7JhgqnS2dys/view?usp=sharing)
 + Aula 11 - Testes de Hipóteses III
 
 **PARTE VI – MODELOS LINEARES GENERALIZADOS**
