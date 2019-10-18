@@ -50,14 +50,8 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 
 + Aula 6 - Amostragem: [Slides](https://drive.google.com/file/d/1PlKxZakTDJZAx49lIrzu3ATNYbJOQgWQ/view?usp=sharing)
 + Aula 7 - Estimação de Parâmetros / Testes de Hipóteses I: [Slides](https://drive.google.com/file/d/10EduLyyEEjtU-T3uhAStYIIJoIWVRJQ3/view?usp=sharing)
-+ Aula 8 - Testes de Hipóteses II
++ Aula 8 - Testes de Hipóteses II: [Slides](https://drive.google.com/file/d/1sjb_wf3r-7IY4M_tK40wuCbF0G4EBdJH/view?usp=sharing)
 + Aula 9 - Testes de Hipóteses III
-
-**PARTE VI – MODELOS LINEARES GENERALIZADOS**
-<br>
-
-+ Aula 10 - Modelos de Regressão Simples e Múltipla
-+ Aula 11 - Modelos de Regressão Logística
 
 ***
 
