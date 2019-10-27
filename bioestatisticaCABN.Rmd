@@ -57,7 +57,8 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 
 <h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
 
-- Lista 1: [Exercícios](https://drive.google.com/file/d/1DbBYwkY-tHlq2f2FLlffpixcUjONfl7o/view?usp=sharing), [Gabarito](https://drive.google.com/file/d/1tSG-SkN_6uH2MOMfGb1sm590ecTg1Z-W/view?usp=sharing)
+- Lista 1: [Exercícios](https://drive.google.com/file/d/1DbBYwkY-tHlq2f2FLlffpixcUjONfl7o/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1tSG-SkN_6uH2MOMfGb1sm590ecTg1Z-W/view?usp=sharing)
+- Lista 2: [Exercícios](https://drive.google.com/file/d/1NHGNEjtVAEoHn3960450NjVoeuwwYae2/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1IYBQBtatk577zIK-dD_ucBMLnLWPeRcA/view?usp=sharing)
 
 ***
 
