@@ -64,7 +64,7 @@ As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
 
 <h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
 
-- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1OcU4QRcD5eASSoQUzxIVOLS4srLWAHT1/view?usp=sharing)
 - Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
 - Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
 - Tutoriais: [Instalando R e RStudio - Windows](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing), [Instalando R e RStudio - MacOS](https://drive.google.com/file/d/1LLojUuXrxhynVSyd---L1M7Z63LyY4BM/view?usp=sharing)
@@ -107,9 +107,9 @@ NOVEMBRO
 <br>
 <ul class="fa-ul">
 <li><i class="far fa-calendar-alt"></i> **01/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
-<li><i class="far fa-calendar-alt"></i> **08/11/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2</span>
-<li><i class="far fa-calendar-alt"></i> **15/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
-<li><i class="far fa-calendar-alt"></i> **22/11/19**: Orientação dos trabalhos + <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos resultados</span>
+<li><i class="far fa-calendar-alt"></i> **08/11/19**: Revisão para a Prova 2
+<li><i class="far fa-calendar-alt"></i> **15/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span> e <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos resultados/discussão</span>
+<li><i class="far fa-calendar-alt"></i> **22/11/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2: [Lista dos Alunos do 1o Horário](https://drive.google.com/file/d/1MzwxWOxqnhFn6JP-es5UdkCnNtZ8ChzE/view?usp=sharing)</span>
 <li><i class="far fa-calendar-alt"></i> **29/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do trabalho final</span>
 </ul>
 <br>

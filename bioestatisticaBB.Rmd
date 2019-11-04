@@ -80,7 +80,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 
 <h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
 
-- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1nuzRCB74EXmpIpCf4jDX4xnqaJNaG0wN/view?usp=sharing)
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1OcU4QRcD5eASSoQUzxIVOLS4srLWAHT1/view?usp=sharing)
 - Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
 - Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
 - Tutoriais: [Instalando R e RStudio - Windows](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing), [Instalando R e RStudio - MacOS](https://drive.google.com/file/d/1LLojUuXrxhynVSyd---L1M7Z63LyY4BM/view?usp=sharing)
