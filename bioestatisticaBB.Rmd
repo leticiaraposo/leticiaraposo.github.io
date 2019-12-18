@@ -1,5 +1,5 @@
 ---
-title: "Biomedicina e Ciência Biológicas"
+title: "Biomedicina e Ciência Biológicas (2019.2)"
 ---
 
 <br>
@@ -34,38 +34,38 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 **PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
 <br>
 
-+ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1ryuqE4gLU28KXwcDMm8717D3eqEQ2QzO/view?usp=sharing)
-+ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula](https://drive.google.com/file/d/113yx7PdcfmxdvURbnn39rGwPNyvKX5Ia/view?usp=sharing)
++ Aula 1 - Pesquisas e Dados: [Slides]()
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula]()
 
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1mrTwxGDhqe8NlYsVPNrWmRTd2qC23x8D/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática](https://drive.google.com/file/d/1IDp_GkOxnKsKTPvJW08SD0BKJB87VCLo/view?usp=sharing)
-+ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1xYjPYhl4WokEib5Ym4g7SWtHo__qM0Bu/view?usp=sharing), [Script da Aula Prática](https://drive.google.com/file/d/1zsbTC17upYnWEgIGH2LTkENqIHIE3Izd/view?usp=sharing), [RMarkdown da Aula Prática](https://drive.google.com/file/d/1kCsCOHTgMGFM3HhUbJ9GaPRFNVy28ga7/view?usp=sharing), [Relatório](https://drive.google.com/file/d/1p9UCQytkcwi6t9kiQUTWH7M56n3fBN9e/view?usp=sharing)
++ Aula 3 - Estatística Descritiva Univariada: [Slides](), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
++ Aula 4 - Estatística Descritiva Bivariada: [Slides](), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
 
-+ Aula 5 - Introdução à Probabilidade:  [Slides](https://drive.google.com/file/d/1jjm7wcqZpk9nPfs2_L1novk_l0I5ry9N/view?usp=sharing)
-+ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I](https://drive.google.com/file/d/1xYSMDsv1dOyueOUTWSTWbXHyG4ZJ84lt/view?usp=sharing)
-+ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1IK_qCyQSIxu5xHvSZDBtd5f6w6_Namhx/view?usp=sharing)
-+ Aula Extra - Prática no R - [RMarkdown - Parte II](https://drive.google.com/file/d/1wbRoAOBqBtGA0KxDgboQQxB_lJw_cxxH/view?usp=sharing), [Rostos de Chernoff](https://drive.google.com/file/d/1o0-bZHmwwutQlrN9N9E63O1scefHr3qy/view?usp=sharing)
++ Aula 5 - Introdução à Probabilidade:  [Slides]()
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I]()
++ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides]()
++ Aula Extra - Prática no R - [RMarkdown - Parte II](), [Rostos de Chernoff]()
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
 
-+ Aula 7 - Amostragem: [Slides](https://drive.google.com/file/d/1H73gng1tp6tI3LAZ2Sn-KuvWpg008_p-/view?usp=sharing)
-+ Aula Extra - Prática no R - [RMarkdown - Parte III](https://drive.google.com/file/d/1TLW-VuBH4Ze8_J-T3eyTXxwsHBxoaQsX/view?usp=sharing)
-+ Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides](https://drive.google.com/file/d/1WLE2gpWhPRMP0tZe6IEPKY6bfWk2z2np/view?usp=sharing)
-+ Aula 10 - Testes de Hipóteses II: [Slides](https://drive.google.com/file/d/1eOv72WYiDgCXFgFZahUBDWJ6EiPJ4cDn/view?usp=sharing), [Script - Aluno](https://drive.google.com/file/d/1HBeqLQgvHxNiRXpCfQ8yR7JhgqnS2dys/view?usp=sharing), [Script - Aula](https://drive.google.com/file/d/1fQfSftOSC8M4FJGM-wjPeajllNcylQhM/view?usp=sharing)
-+ Aula 11 - Testes de Hipóteses III: [Slides](https://drive.google.com/file/d/15aAFRHr61PjMK8SXuwNiqYDryZNPbtYI/view?usp=sharing), [Script - Aluno](https://drive.google.com/file/d/1KMgp99LUV-_2hexX4BVNy0jDl544ixQh/view?usp=sharing), [Script - Aula](https://drive.google.com/file/d/1P4WCHpOCgJ1SzFGuXTkvWMmcWKuakA1e/view?usp=sharing)
++ Aula 7 - Amostragem: [Slides]()
++ Aula Extra - Prática no R - [RMarkdown - Parte III]()
++ Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides]()
++ Aula 10 - Testes de Hipóteses II: [Slides](), [Script - Aluno](), [Script - Aula]()
++ Aula 11 - Testes de Hipóteses III: [Slides](), [Script - Aluno](), [Script - Aula]()
 
 **PARTE VI – MODELOS LINEARES GENERALIZADOS**
 <br>
 
-+ Aula 12 - Modelos de Regressão Simples e Múltipla
-+ Aula 13 - Modelos de Regressão Logística
++ Aula 12 - Modelos de Regressão Simples e Múltipla: [Slides]()
++ Aula 13 - Modelos de Regressão Logística: [Slides]()
 
 ***
 
@@ -91,56 +91,52 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <h4 style="color:rgb(235, 104, 100);">Datas Importantes</h4>
 <br>
 
-AGOSTO
+MARÇO
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **15/08/19**: Início das aulas
-<li><i class="far fa-calendar-alt"></i> **23/08/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos grupos e temas</span>
-<li><i class="far fa-calendar-alt"></i> **29/08/19**: Simpósio Bio e Biomed - haverá aula, mas não será cobrada a presença
-<li><i class="far fa-calendar-alt"></i> **30/08/19**: Simpósio Bio e Biomed - haverá aula, mas não será cobrada a presença
+<li><i class="far fa-calendar-alt"></i> **12/03/20**: Início das aulas
+<li><i class="far fa-calendar-alt"></i> **20/03/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos grupos e temas</span>
 </ul>
 <br>
 
-SETEMBRO
+ABRIL
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **06/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário</span>
-<li><i class="far fa-calendar-alt"></i> **13/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1-b5snF6DqFaRYYruP0EzVSxt4BUujVrb/view?usp=sharing), [Dados](https://drive.google.com/file/d/1T99-SHeWazb9wx0sPK43ryVD8ZefYLQg/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1Q2phF-qwRSTl1hxL4zXjJcY33NhXyd51/view?usp=sharing), [Gabarito](https://drive.google.com/file/d/1iHxk8Hx0lVv0sr91c0gc9Z7Cz3ymKZKP/view?usp=sharing), [Notas](https://drive.google.com/file/d/1mGgFrML3lX_La4S3f4QKhG7CnFoJq4dE/view?usp=sharing)</span>
-<li><i class="far fa-calendar-alt"></i> **20/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da introdução + objetivos</span>
-<li><i class="far fa-calendar-alt"></i> **27/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados</span>
+<li><i class="far fa-calendar-alt"></i> **03/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário (se for o caso) ou dos dados</span>
+<li><i class="far fa-calendar-alt"></i> **10/04/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **17/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1-b5snF6DqFaRYYruP0EzVSxt4BUujVrb/view?usp=sharing), [Dados](https://drive.google.com/file/d/1T99-SHeWazb9wx0sPK43ryVD8ZefYLQg/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1Q2phF-qwRSTl1hxL4zXjJcY33NhXyd51/view?usp=sharing), [Gabarito](), [Notas]()</span>
+<li><i class="far fa-calendar-alt"></i> **24/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da introdução + objetivos</span>
+<li><i class="far fa-calendar-alt"></i> **30/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados (se tiver escolhido questionário)</span>
 </ul>
 <br>
 
-OUTUBRO
+MAIO
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **04/10/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1</span>
-<li><i class="far fa-calendar-alt"></i> **11/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
-<li><i class="far fa-calendar-alt"></i> **18/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
-<li><i class="far fa-calendar-alt"></i> **24/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
-<li><i class="far fa-calendar-alt"></i> **25/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
+<li><i class="far fa-calendar-alt"></i> **01/05/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **08/05/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1</span>
+<li><i class="far fa-calendar-alt"></i> **15/05/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
+<li><i class="far fa-calendar-alt"></i> **22/05/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
 </ul>
 <br>
 
-NOVEMBRO
+JUNHO
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **01/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
-<li><i class="far fa-calendar-alt"></i> **07/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana da Biomedicina - não haverá aula, apenas encontros sobre o trabalho final</span>
-<li><i class="far fa-calendar-alt"></i> **08/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana da Biomedicina - não haverá aula, apenas encontros sobre o trabalho final</span>
-<li><i class="far fa-calendar-alt"></i> **14/11/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2</span>
-<li><i class="far fa-calendar-alt"></i> **15/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
-<li><i class="far fa-calendar-alt"></i> **21/11/19**: Orientação dos trabalhos
-<li><i class="far fa-calendar-alt"></i> **22/11/19**: Orientação dos trabalhos + <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos resultados</span>
-<li><i class="far fa-calendar-alt"></i> **28/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **05/06/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
+<li><i class="far fa-calendar-alt"></i> **11/06/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **12/06/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Recesso</span>
+<li><i class="far fa-calendar-alt"></i> **25/06/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2</span>
+<li><i class="far fa-calendar-alt"></i> **26/06/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da versão final dos trabalhos</span>
 </ul>
 <br>
 
-DEZEMBRO
+JULHO
 <br>
 <ul class="fa-ul">
-<li><i class="far fa-calendar-alt"></i> **05/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Apresentação do trabalho final</span>
-<li><i class="far fa-calendar-alt"></i> **12/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova final</span>
+<li><i class="far fa-calendar-alt"></i> **01/07/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da versão final da apresentação</span>
+<li><i class="far fa-calendar-alt"></i> **03/07/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Apresentação do trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **10/07/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova final</span>
 </ul>
 
 ***
