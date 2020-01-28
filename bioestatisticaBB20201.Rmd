@@ -1,0 +1,163 @@
+---
+title: "Biomedicina e Ciência Biológicas (2020.1)"
+---
+
+<br>
+<i>O objetivo do curso é apresentar um conjunto de métodos estatísticos que permitam ao estudante ler, 
+compreender e interpretar os trabalhos técnicos e científicos que se utilizam da Estatística, assim 
+como  ter  uma  noção  das  técnicas  envolvidas  na  coleta,  apresentação,  análise  e  interpretação  de 
+dados tanto na área de planejamento, como na de pesquisa.</i> 
+<br>
+<br> 
+
+As aulas são ministradas nas quintas e sextas, das 9h às 12h.
+
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> *Quinta-feira*: Sala 301N
+<li><i class="far fa-calendar-alt"></i> *Sexta-feira*: Laboratório 3
+</ul>
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Material Didático</h4>
+
+<ul class="fa-ul">
+<li><i class="fas fa-book"></i> DANCEY, Christine P.; REIDY, John G.; ROWE, Richard. **Estatística Sem Matemática para as Ciências da Saúde**. Penso Editora, 2017.
+<li><i class="fas fa-book"></i> MAGNUSSON, Willian E. **Estatística [sem] matemática: a ligação entre as questões e a análise**. Planta, 2003.
+<li><i class="fas fa-book"></i> BARBETTA, Pedro Alberto. **Estatística aplicada às ciências sociais**. Ed. UFSC, 2008.
+</ul>
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Conteúdo Programático</h4>
+
+**PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
+<br>
+
++ Aula 1 - Pesquisas e Dados: [Slides]()
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula]()
+
+
+**PARTE II – ESTATÍSTICA DESCRITIVA**
+<br>
+
++ Aula 3 - Estatística Descritiva Univariada: [Slides](), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
++ Aula 4 - Estatística Descritiva Bivariada: [Slides](), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
+
+**PARTE III – ESTATÍSTICA PROBABILÍSTICA**
+<br>
+
++ Aula 5 - Introdução à Probabilidade:  [Slides]()
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I]()
++ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides]()
++ Aula Extra - Prática no R - [RMarkdown - Parte II](), [Rostos de Chernoff]()
+
+**PARTE IV – ESTATÍSTICA INFERENCIAL**
+<br>
+
++ Aula 7 - Amostragem: [Slides]()
++ Aula Extra - Prática no R - [RMarkdown - Parte III]()
++ Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides]()
++ Aula 10 - Testes de Hipóteses II: [Slides](), [Script - Aluno](), [Script - Aula]()
++ Aula 11 - Testes de Hipóteses III: [Slides](), [Script - Aluno](), [Script - Aula]()
+
+**PARTE VI – MODELOS LINEARES GENERALIZADOS**
+<br>
+
++ Aula 12 - Modelos de Regressão Simples e Múltipla: [Slides]()
++ Aula 13 - Modelos de Regressão Logística: [Slides]()
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
+
+- [Resolução do Exercício da Aula de Teste Diagnóstico]()
+- Lista 1: [Exercícios](), [Resolução]()
+- Lista 2: [Exercícios](), [Resolução]()
+- Lista 3: [Exercícios](), [Resolução]()
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
+
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1OcU4QRcD5eASSoQUzxIVOLS4srLWAHT1/view?usp=sharing)
+- Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
+- Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio - Windows](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing), [Instalando R e RStudio - MacOS](https://drive.google.com/file/d/1LLojUuXrxhynVSyd---L1M7Z63LyY4BM/view?usp=sharing)
+- Trabalho da Disciplina: [Modelo](https://drive.google.com/file/d/1B7kxKbIohAEL080SnqIE1Qxx9gIVKLLh/view?usp=sharing), [Ficha de Avaliação da Apresentação Oral](https://drive.google.com/file/d/1EcFAVg52l0ppbOGq1amXEO7O3XLZoIA0/view?usp=sharing)
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Datas Importantes</h4>
+<br>
+
+MARÇO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **12/03/20**: Início das aulas
+<li><i class="far fa-calendar-alt"></i> **20/03/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos grupos e temas</span>
+</ul>
+<br>
+
+ABRIL
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **03/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário (se for o caso) ou dos dados</span>
+<li><i class="far fa-calendar-alt"></i> **10/04/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **17/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1-b5snF6DqFaRYYruP0EzVSxt4BUujVrb/view?usp=sharing), [Dados](https://drive.google.com/file/d/1T99-SHeWazb9wx0sPK43ryVD8ZefYLQg/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1Q2phF-qwRSTl1hxL4zXjJcY33NhXyd51/view?usp=sharing), [Gabarito](), [Notas]()</span>
+<li><i class="far fa-calendar-alt"></i> **24/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da introdução + objetivos</span>
+<li><i class="far fa-calendar-alt"></i> **30/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados (se tiver escolhido questionário)</span>
+</ul>
+<br>
+
+MAIO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **01/05/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **08/05/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1</span>
+<li><i class="far fa-calendar-alt"></i> **15/05/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
+<li><i class="far fa-calendar-alt"></i> **22/05/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
+</ul>
+<br>
+
+JUNHO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **05/06/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
+<li><i class="far fa-calendar-alt"></i> **11/06/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
+<li><i class="far fa-calendar-alt"></i> **12/06/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Recesso</span>
+<li><i class="far fa-calendar-alt"></i> **25/06/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2</span>
+<li><i class="far fa-calendar-alt"></i> **26/06/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da versão final dos trabalhos</span>
+</ul>
+<br>
+
+JULHO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **01/07/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da versão final da apresentação</span>
+<li><i class="far fa-calendar-alt"></i> **03/07/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Apresentação do trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **10/07/20**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova final</span>
+</ul>
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Avaliação</h4>
+
+A avaliação do aluno na disciplina será realizada por meio de duas atividades (AT), duas avaliações (AV) e um trabalho final (TF) dividido em parte escrita (TFE) e oral (TFO).
+A nota final será calculada da seguinte forma:
+
+$$Nota Final = \frac{(0.5*AT1) + (0.5*AT2) + AV1 + AV2 + (0.6*TFEscrita + 0.4TFO)}{4}$$
+
+*** 
+<h4 style="color:rgb(235, 104, 100);">Informações importantes do regimento da UNIRIO</h4>
+
+* O Art.95, §1o prevê que será <u>dispensado da prova final (PF)</u> o aluno que obtiver nas avaliações parciais <u>média igual ou superior a 7,0 (sete)</u>. O §2o deste mesmo artigo pontifica que “os alunos não aprovados nos termos do parágrafo anterior [§1o], que alcançarem <u>média igual ou superior a 4,0 (quatro)</u>, submeter-se-ão ao término do período a uma <u>PF</u>, abrangendo todo o conteúdo programático da disciplina, sendo aprovados aqueles que obtiverem, entre a <u>nota da PF e a média das notas das avaliações parciais</u> de aprendizagem, <u>média igual ou superior a 5 (cinco)</u>.”
+
+* O §3o dá que: “<u>não será admitido à PF o aluno cuja média das avaliações parciais de aprendizagem for inferior a 4 (quatro)</u>”.
+Pelo Art.95, §4o todo aluno tem direito a fazer prova de <u>segunda chamada</u> no caso de impedimento no dia e horário previamente marcado pelo professor. Nesse caso o aluno tem que <u>comprovar o motivo</u> alegado para a ausência (por exemplo, atestado médico, no caso de doença) e pedir a segunda chamada no <u>prazo máximo de 48 horas</u> depois de realizada a prova em primeira chamada. A segunda chamada será realizada até 8 dias após a realização da primeira chamada.
+
+* Art. 6o – Será considerado <u>inabilitado</u>, na disciplina, o aluno que:
+  a) Obtiver nas avaliações de aprendizagem, realizadas no período letivo, <u>média aritmética inferior a 4 (quatro)</u>;
+  b) <u>Média aritmética final referida no §2o ou no §4o</u>, quando for o caso, deste artigo, <u>inferior a 5 (cinco)</u>;
+  c) <u>Deixar de comparecer a mais de 25% (vinte e cinco por cento) da carga horária da disciplina</u>, ressalvados os casos previstos em legislação específica.
+

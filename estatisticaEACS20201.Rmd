@@ -1,0 +1,145 @@
+---
+title: "Ciências Ambientais / Biológicas / da Natureza"
+---
+
+<br>
+<i>O objetivo do curso é apresentar um conjunto de métodos estatísticos que permitam ao estudante ler, 
+compreender e interpretar os trabalhos técnicos e científicos que se utilizam da Estatística, assim 
+como  ter  uma  noção  das  técnicas  envolvidas  na  coleta,  apresentação,  análise  e  interpretação  de 
+dados tanto na área de planejamento, como na de pesquisa.</i> 
+<br>
+<br>
+
+As aulas são ministradas nas sextas, das 18h às 22h, no Laboratório IBIO.
+
+***
+
+<h4 style="color:rgb(235, 104, 100);"> Material Didático</h4>
+
+<ul class="fa-ul">
+<li><i class="fas fa-book"></i> DANCEY, Christine P.; REIDY, John G.; ROWE, Richard. **Estatística Sem Matemática para as Ciências da Saúde**. Penso Editora, 2017.
+<li><i class="fas fa-book"></i> MAGNUSSON, Willian E. **Estatística [sem] matemática: a ligação entre as questões e a análise**. Planta, 2003.
+<li><i class="fas fa-book"></i> BARBETTA, Pedro Alberto. **Estatística aplicada às ciências sociais**. Ed. UFSC, 2008.
+</ul>
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Conteúdo Programático</h4>
+
+**PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
+<br>
+
++ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1uqINAROHu0T7J7-pFuZpLQP3UvF8jFAB/view?usp=sharing)
++ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula](https://drive.google.com/file/d/15u1Hs7Vh3qxS5Yuek2zKlKxL_2dHqG2n/view?usp=sharing), [RMarkdown da Aula](https://drive.google.com/file/d/1Qm1WMYLM-h_4l58vP4QbekLr6Bocznn3/view?usp=sharing)
+
+**PARTE II – ESTATÍSTICA DESCRITIVA**
+<br>
+
++ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1OPjWCY5ATuPgSNBLGdbpHxVIJMpd5m1U/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing)
++ Aula 4 - Estatística Descritiva Bivariada:  [Slides](https://drive.google.com/file/d/1PxmumKyopcodU3FfxfW1wRvIcdtvNOu4/view?usp=sharing)
++ Aula Prática de R: [RMarkdown](https://drive.google.com/file/d/1hlKnln8jTGN4jJ25jaXMwTB91Y2FYFF3/view?usp=sharing)
+
+**PARTE III – ESTATÍSTICA PROBABILÍSTICA**
+<br>
+
++ Aula 5 - Introdução à Probabilidade / Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1hCjnU-ZiNsHr0k6JUdWeF1ausDjFtJMN/view?usp=sharing)
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [Script](https://drive.google.com/file/d/1W3zsN5M-t2mZkobMLeJ_GvdSCO8ijwF_/view?usp=sharing)
+
+**PARTE IV – ESTATÍSTICA INFERENCIAL**
+<br>
+
++ Aula 6 - Amostragem: [Slides](https://drive.google.com/file/d/1PlKxZakTDJZAx49lIrzu3ATNYbJOQgWQ/view?usp=sharing)
++ Aula 7 - Estimação de Parâmetros / Testes de Hipóteses I: [Slides](https://drive.google.com/file/d/10EduLyyEEjtU-T3uhAStYIIJoIWVRJQ3/view?usp=sharing)
++ Aula 8 - Testes de Hipóteses II: [Slides](https://drive.google.com/file/d/1sjb_wf3r-7IY4M_tK40wuCbF0G4EBdJH/view?usp=sharing)
++ Aula 9 - Testes de Hipóteses III: [Slides](https://drive.google.com/file/d/1GswHNGleyq3jRQGqmmjeYk7owhwGs8vI/view?usp=sharing), [Script](https://drive.google.com/file/d/1N4XY_lRRlzB9w9JuP-2N_2f2JmznldHE/view?usp=sharing)
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
+
+- Lista 1: [Exercícios](https://drive.google.com/file/d/1DbBYwkY-tHlq2f2FLlffpixcUjONfl7o/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1tSG-SkN_6uH2MOMfGb1sm590ecTg1Z-W/view?usp=sharing)
+- Lista 2: [Exercícios](https://drive.google.com/file/d/1NHGNEjtVAEoHn3960450NjVoeuwwYae2/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1IYBQBtatk577zIK-dD_ucBMLnLWPeRcA/view?usp=sharing)
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Materiais Complementares</h4>
+
+- Checklists: [Análise Exploratória](https://drive.google.com/file/d/1Wdi--khEKj_o5cBQ0p4wkkSLwknPJMp5/view?usp=sharing), [Artigo Científico](https://drive.google.com/file/d/1OcU4QRcD5eASSoQUzxIVOLS4srLWAHT1/view?usp=sharing)
+- Dicas: [Elaboração de Questionário](https://drive.google.com/file/d/1BCTrFEdOF-Ek_sNz-tZ4WhS9PQDR9xSf/view?usp=sharing)
+- Funções do R: [Estatística Descritiva](https://drive.google.com/file/d/1KU2ZbYE2xODTQ5bi0kyeXblimNCqI29o/view?usp=sharing)
+- Tutoriais: [Instalando R e RStudio - Windows](https://drive.google.com/file/d/1LDRC0d5Q-5GXkVrp8OzPyIXykJxfCOMF/view?usp=sharing), [Instalando R e RStudio - MacOS](https://drive.google.com/file/d/1LLojUuXrxhynVSyd---L1M7Z63LyY4BM/view?usp=sharing)
+- Trabalho da Disciplina: [Modelo](https://drive.google.com/file/d/1B7kxKbIohAEL080SnqIE1Qxx9gIVKLLh/view?usp=sharing), [Ficha de Avaliação da Apresentação Oral](https://drive.google.com/file/d/1EcFAVg52l0ppbOGq1amXEO7O3XLZoIA0/view?usp=sharing)
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Datas Importantes</h4>
+<br>
+
+AGOSTO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **16/08/19**: Início das aulas
+<li><i class="far fa-calendar-alt"></i> **23/08/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos grupos e temas</span>
+<li><i class="far fa-calendar-alt"></i> **30/08/19**: Simpósio Bio e Biomed - haverá aula, mas não será cobrada a presença
+</ul>
+<br>
+
+SETEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **06/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário</span>
+<li><i class="far fa-calendar-alt"></i> **20/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1uIh--K5M0uIAN_Fn0skCn1o9wnUgj5aE/view?usp=sharing), [Dados](https://drive.google.com/file/d/1pDrYEEwz7VdCp706vdDxw4oA196JelPG/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1q4VFC0Prn-auxQL9tjywd9v3_8HALPCb/view?usp=sharing), [Gabarito](https://drive.google.com/file/d/17gdKMCu8YKjmPBDY_RMDSWF15NgEclc7/view?usp=sharing), [Notas](https://drive.google.com/file/d/1QbALer0qmEm9V7qNU_UpLkD0eRx2pa4J/view?usp=sharing)</span>
+<li><i class="far fa-calendar-alt"></i> **27/09/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados e da introdução + objetivos</span>
+</ul>
+<br>
+
+OUTUBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **04/10/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 1: [Lista dos Alunos do 1o Horário](https://drive.google.com/file/d/1MzwxWOxqnhFn6JP-es5UdkCnNtZ8ChzE/view?usp=sharing)</span>
+<li><i class="far fa-calendar-alt"></i> **11/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega das hipóteses + tipos de gráficos</span>
+<li><i class="far fa-calendar-alt"></i> **18/10/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da análise exploratória</span>
+<li><i class="far fa-calendar-alt"></i> **25/10/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Semana de integração acadêmica - não haverá aula</span>
+</ul>
+<br>
+
+NOVEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **01/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da metodologia + Atividade 2</span>
+<li><i class="far fa-calendar-alt"></i> **08/11/19**: Revisão para a Prova 2
+<li><i class="far fa-calendar-alt"></i> **15/11/19**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span> e <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos resultados/discussão</span>
+<li><i class="far fa-calendar-alt"></i> **22/11/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova 2: [Lista dos Alunos do 1o Horário](https://drive.google.com/file/d/1MzwxWOxqnhFn6JP-es5UdkCnNtZ8ChzE/view?usp=sharing)</span>
+<li><i class="far fa-calendar-alt"></i> **29/11/19**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do trabalho final</span>
+</ul>
+<br>
+
+DEZEMBRO
+<br>
+<ul class="fa-ul">
+<li><i class="far fa-calendar-alt"></i> **06/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Apresentação do trabalho final</span>
+<li><i class="far fa-calendar-alt"></i> **13/12/19**: <span style="background-color: rgba(249, 169, 90, 0.4);">Prova final</span>
+</ul>
+
+***
+
+<h4 style="color:rgb(235, 104, 100);">Avaliação</h4>
+
+A avaliação do aluno na disciplina será realizada por meio de duas atividades (AT), duas avaliações (AV) e um trabalho final (TF) dividido em parte escrita (TFE) e oral (TFO).
+A nota final será calculada da seguinte forma:
+
+$$Nota Final = \frac{(0.5*AT1) + (0.5*AT2) + AV1 + AV2 + (0.6*TFE + 0.4*TFO)}{4}$$
+
+*** 
+
+<h4 style="color:rgb(235, 104, 100);">Informações importantes do regimento da UNIRIO</h4>
+
+* O Art.95, §1o prevê que será <u>dispensado da prova final (PF)</u> o aluno que obtiver nas avaliações parciais <u>média igual ou superior a 7,0 (sete)</u>. O §2o deste mesmo artigo pontifica que “os alunos não aprovados nos termos do parágrafo anterior [§1o], que alcançarem <u>média igual ou superior a 4,0 (quatro)</u>, submeter-se-ão ao término do período a uma <u>PF</u>, abrangendo todo o conteúdo programático da disciplina, sendo aprovados aqueles que obtiverem, entre a <u>nota da PF e a média das notas das avaliações parciais</u> de aprendizagem, <u>média igual ou superior a 5 (cinco)</u>.”
+
+* O §3o dá que: “<u>não será admitido à PF o aluno cuja média das avaliações parciais de aprendizagem for inferior a 4 (quatro)</u>”.
+Pelo Art.95, §4o todo aluno tem direito a fazer prova de <u>segunda chamada</u> no caso de impedimento no dia e horário previamente marcado pelo professor. Nesse caso o aluno tem que <u>comprovar o motivo</u> alegado para a ausência (por exemplo, atestado médico, no caso de doença) e pedir a segunda chamada no <u>prazo máximo de 48 horas</u> depois de realizada a prova em primeira chamada. A segunda chamada será realizada até 8 dias após a realização da primeira chamada.
+
+* Art. 6o – Será considerado <u>inabilitado</u>, na disciplina, o aluno que:
+  a) Obtiver nas avaliações de aprendizagem, realizadas no período letivo, <u>média aritmética inferior a 4 (quatro)</u>;
+  b) <u>Média aritmética final referida no §2o ou no §4o</u>, quando for o caso, deste artigo, <u>inferior a 5 (cinco)</u>;
+  c) <u>Deixar de comparecer a mais de 25% (vinte e cinco por cento) da carga horária da disciplina</u>, ressalvados os casos previstos em legislação específica.
