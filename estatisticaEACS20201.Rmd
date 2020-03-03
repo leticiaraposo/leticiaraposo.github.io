@@ -28,7 +28,7 @@ As aulas são ministradas nas quartas, das 18h às 21h.
 <br>
 
 + Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1LdAZ5WmiF5LiDqV8KeskCb30bKc2NX9j/view?usp=sharing)
-+ Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula]()
++ Aula 2 - Introdução ao R / RCommander: [Apostila](http://gae.uniriotec.br/7/material.html)
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
