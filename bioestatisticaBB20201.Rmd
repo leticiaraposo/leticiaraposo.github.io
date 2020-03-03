@@ -34,7 +34,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 **PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
 <br>
 
-+ Aula 1 - Pesquisas e Dados: [Slides]()
++ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1dX9TW7InfdCk_DlXireLeKJ0QfNklB1G/view?usp=sharing)
 + Aula 2 - Introdução ao R / RStudio: [Apostila (em inglês)](https://drive.google.com/file/d/1V4p9P3a1r6bijyIgy-mWYDjKa1SMXeFb/view?usp=sharing), [Script de Instalação de Pacotes](https://drive.google.com/file/d/1scqoy10IL2_bcA9wGEEEMLThGmJmRC9w/view?usp=sharing), [R Básico (em inglês)](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf), [RStudio](https://github.com/rstudio/cheatsheets/raw/master/translations/portuguese/rstudio-IDE-cheatsheet-portuguese.pdf), [RMarkdown (em inglês)](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf), [Script da Aula]()
 
 
@@ -104,7 +104,8 @@ ABRIL
 <ul class="fa-ul">
 <li><i class="far fa-calendar-alt"></i> **03/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega do questionário (se for o caso) ou dos dados</span>
 <li><i class="far fa-calendar-alt"></i> **10/04/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">Feriado</span>
-<li><i class="far fa-calendar-alt"></i> **17/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](https://drive.google.com/file/d/1-b5snF6DqFaRYYruP0EzVSxt4BUujVrb/view?usp=sharing), [Dados](https://drive.google.com/file/d/1T99-SHeWazb9wx0sPK43ryVD8ZefYLQg/view?usp=sharing), [RMarkdown](https://drive.google.com/file/d/1Q2phF-qwRSTl1hxL4zXjJcY33NhXyd51/view?usp=sharing), [Gabarito](), [Notas]()</span>
+<li><i class="far fa-calendar-alt"></i> **16/04/20**: <span style="background-color: rgba(123, 156, 189, 0.4);">XIV Semana de Biologia (não haverá aula) </span>
+<li><i class="far fa-calendar-alt"></i> **17/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da Atividade 1: [Questões](), [Dados](), [RMarkdown](), [Gabarito](), [Notas]() e XIV Semana de Biologia (não haverá aula) </span>
 <li><i class="far fa-calendar-alt"></i> **24/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega da introdução + objetivos</span>
 <li><i class="far fa-calendar-alt"></i> **30/04/20**: <span style="background-color: rgba(249, 239, 114, 0.4);">Entrega dos dados (se tiver escolhido questionário)</span>
 </ul>
