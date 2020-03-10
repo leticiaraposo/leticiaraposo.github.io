@@ -27,7 +27,7 @@ As aulas são ministradas nas quartas, das 18h às 21h.
 **PARTE I – UMA INTRODUÇÃO AO PROCESSO DE PESQUISA**
 <br>
 
-+ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1LdAZ5WmiF5LiDqV8KeskCb30bKc2NX9j/view?usp=sharing)
++ Aula 1 - Pesquisas e Dados: [Slides](https://drive.google.com/file/d/1vkt3Ixl8GJ9PwUdWsmBtatYI5r7wRmTZ/view?usp=sharing)
 + Aula 2 - Introdução ao R / RCommander: [Apostila](http://gae.uniriotec.br/7/material.html)
 
 **PARTE II – ESTATÍSTICA DESCRITIVA**
@@ -54,8 +54,8 @@ As aulas são ministradas nas quartas, das 18h às 21h.
 
 <h4 style="color:rgb(235, 104, 100);">Exercícios</h4>
 
-- Lista 1: [Exercícios](https://drive.google.com/file/d/1DbBYwkY-tHlq2f2FLlffpixcUjONfl7o/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1tSG-SkN_6uH2MOMfGb1sm590ecTg1Z-W/view?usp=sharing)
-- Lista 2: [Exercícios](https://drive.google.com/file/d/1NHGNEjtVAEoHn3960450NjVoeuwwYae2/view?usp=sharing), [Resolução](https://drive.google.com/file/d/1IYBQBtatk577zIK-dD_ucBMLnLWPeRcA/view?usp=sharing)
+- Lista 1: [Exercícios](), [Resolução]()
+- Lista 2: [Exercícios](), [Resolução]()
 
 ***
 

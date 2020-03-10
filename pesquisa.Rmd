@@ -9,11 +9,11 @@ title: "Projetos de Pesquisa"
 #### Fatores associados ao abandono do tratamento de tuberculose no estado do Rio de Janeiro
 <br>
 
-<p><img src="giulia.gif" alt="Giulia" style="width:250px;height:250px;margin-right:15px;">
+<!-- <p><img src="giulia.gif" alt="Giulia" style="width:250px;height:250px;margin-right:15px;"> -->
 
-**Aluna: Giulia Neres Pontes**
+**Aluna: Milena Hisse de Lima Santos**
 <br>
-*Lattes*: <http://lattes.cnpq.br/8240519407399799>
+*Lattes*: <http://lattes.cnpq.br/6311350194522396>
 
 <br>
 
