@@ -22,8 +22,8 @@ library(rayshader)
 
 #### LEGO ####
 
-mosaic1 <- readJPEG("C:/Users/Leticia/Downloads/Leticia.jpg") %>% #Basta colocar entre aspas o caminho da imagem a ser transformada
-  scale_image(70) %>%
+mosaic1 <- readJPEG("C:/Users/Leticia/Desktop/IMG_3933.jpg") %>% #Basta colocar entre aspas o caminho da imagem a ser transformada
+  scale_image(150) %>%
   legoize() %>% 
   collect_bricks() 
 

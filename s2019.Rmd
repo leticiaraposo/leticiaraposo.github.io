@@ -9,7 +9,8 @@ title: "Galeria"
 <h3> 2019.1 </h3>
 <p><img src="BB 2019-1.jpg" alt="Turma de 2019.1" style="width:700px;height:400px;margin-right:15px;">
 
+<p>
 
 <h3> 2019.2 </h3>
-<p><img src="BB 2019-2.jpg" alt="Turma de 2019.2" style="width:700px;height:400px;margin-right:15px;">
+<p><img src="BB 2019-2.jpg" alt="Turma de 2019.2" style="width:600px;height:400px;margin-right:15px;">
 

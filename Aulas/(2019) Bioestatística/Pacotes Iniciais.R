@@ -1,33 +1,16 @@
 ##%######################################################%##
 #                                                          #
-####                ADDINS INTERESSANTES                ####
+####                PACOTES NECESSÁRIOS                 ####
 #                                                          #
 ##%######################################################%##
 
-
-
-install.packages("devtools")
-
-# Addin para colocar palavras em maiúsculo/minúsculo
-devtools::install_github("strboul/caseconverter")
-
-# Addin para converter tipo da variável e juntar bancos de dados
-devtools::install_github("sarupurisailalith/commonUtilAddins")
-
-# Addin para filtrar dados
-devtools::install_github("kieranjmartin/viewenhance")
-
-# Addin para escolher cores
-install.packages("colourpicker")
-
-# Addin para montar gráficos
+# Instalando os pacotes
 install.packages("esquisse")
-
-# Addin para editar detalhes do gráfico
-install.packages("ggThemeAssist")
-
-# Addin para acrescentar gráficos marginais
-install.packages("ggExtra")
-
-# Addin para converter tipo da variável, ordem dos fatores e criar intervalos de classe 
-install.packages("questionr")
+install.packages("export")
+install.packages("RVAdeMemoire")
+install.packages("aplpack")
+install.packages("ggplot2")
+install.packages("readxl")
+install.packages("summarytools")
+install.packages("export")
+install.packages("RVAideMemoire")
