@@ -5,6 +5,12 @@ img {
   float: left;
 }
 
+img2 {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: 50px;
 }

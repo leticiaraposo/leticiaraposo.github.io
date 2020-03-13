@@ -29,7 +29,9 @@ navbar:
       text: "Galeria"
       menu:
         - text: "2019"
-        - href: s2019.html
+          href: s2019.html
+        - text: "2020"
+          href: s2020.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:profleticiaraposo@gmail.com
