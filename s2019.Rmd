@@ -2,17 +2,59 @@
 title: "Galeria"
 ---
 <br>
-
-
-<h4> Turma Biologia/Biomedicina </h4>
-
-<h3> 2019.1 </h3>
-<br>
-
-<p><img2 src="BB2019-1.jpg" alt="Turma de 2019.1" style="width:700px;height:400px;margin-right:15px;">
+<h5>Encerramento da disciplina de Bioestatística da turma de Biologia e Biomedicina de 2019.1</h5>
+<div class="polaroid">
+  <img src="BB2019-1.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
 
 <br>
 
-<h3> 2019.2 </h3>
-<p><img2 src="BB2019-2.jpg" alt="Turma de 2019.2" style="width:600px;height:400px;margin-right:15px;">
+<h5>Encerramento da disciplina de Bioestatística da turma de Biologia e Biomedicina de 2019.2</h5>
+<div class="polaroid">
+  <img src="BB2019-2.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
 
+<br>
+
+<h5>Encerramento da disciplina de Bioestatística da turma de Ciências Ambientais/Biológicas/da Natureza de 2019.1</h5>
+<div class="polaroid">
+  <img src="CABN2019-2.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
+
+<br>
+
+<h5>Apresentação do postêr de monitoria pela aluna Juliana Marinho. O pôster foi premiado como melhor trabalho de monitoria da JIC, Rio de Janeiro, 2019</h5>
+<div class="polaroid">
+  <img src="MonitoriaJuliana.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
+
+<h5>Defesa do TCC de Dhara Avelino, Rio de Janeiro, 2019</h5>
+<div class="polaroid">
+  <img src="DefesaDhara.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
+
+<h5>Apresentação do trabalho desenvolvido na disciplina de Bioestatística no IV Encontro de Educação Estatística, Rio de Janeiro, 2019</h5>
+<h5>Alunos: Ádamis Gonçalves e Vinicius Bauer</h5>
+<div class="polaroid">
+  <img src="Tabagismo.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>
+
+<h5>Apresentação do trabalho desenvolvido na disciplina de Bioestatística no IV Encontro de Educação Estatística, Rio de Janeiro, 2019</h5>
+<h5>Alunas: Amanda Lanna, Izadora Queiroz e Júlia Cardoso</h5>
+<div class="polaroid">
+  <img src="CorpoDocente.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  </div>
+</div>

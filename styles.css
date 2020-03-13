@@ -5,10 +5,16 @@ img {
   float: left;
 }
 
-img2 {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
 
 h1 {
@@ -51,4 +57,3 @@ div.c {
 div.d {
   line-height: 200%;
 }
-
