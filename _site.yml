@@ -41,6 +41,8 @@ navbar:
       href: https://www.linkedin.com/in/let%C3%ADcia-raposo/
     - icon: fa-google
       href: https://scholar.google.com/citations?user=j9H0sfQAAAAJ&hl=pt-BR&oi=ao
+    - icon: fa-youtube
+      href: https://www.youtube.com/feed/my_videos
 output:
   html_document:
     theme: journal
