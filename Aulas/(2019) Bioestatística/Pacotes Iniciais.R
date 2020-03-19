@@ -5,6 +5,7 @@
 ##%######################################################%##
 
 # Instalando os pacotes
+install.packages("DescTools")
 install.packages("esquisse")
 install.packages("export")
 install.packages("RVAdeMemoire")

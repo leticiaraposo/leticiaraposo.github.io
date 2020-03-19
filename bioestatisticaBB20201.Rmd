@@ -42,7 +42,7 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 <br>
 
 + Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1fSGb3RlLFr797IiLUnk80Z__q7cLOTOl/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
-+ Aula 4 - Estatística Descritiva Bivariada: [Slides](), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
++ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1rMnGml8A0WXNXFQQaemdUa707_5A0q3o/view?usp=sharing), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
