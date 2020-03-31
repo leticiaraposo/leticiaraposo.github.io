@@ -20,8 +20,8 @@ navbar:
           href: bioestatisticaBB20201.html
         - text: "Estatística Aplicada às Ciências Sociais"
           href: estatisticaEACS20201.html
-        - text: "Análise Inteligente de Dados"
-          href: analisedados.html
+        - text: "Aprendizado de Máquina"
+          href: am.html
     - icon: fa-lightbulb fa-lg
       text: "Curiosidades"
       href: curiosidades.html

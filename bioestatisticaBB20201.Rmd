@@ -3,10 +3,7 @@ title: "Biomedicina e Ciência Biológicas (2020.1)"
 ---
 
 <br>
-<i>O objetivo do curso é apresentar um conjunto de métodos estatísticos que permitam ao estudante ler, 
-compreender e interpretar os trabalhos técnicos e científicos que se utilizam da Estatística, assim 
-como  ter  uma  noção  das  técnicas  envolvidas  na  coleta,  apresentação,  análise  e  interpretação  de 
-dados tanto na área de planejamento, como na de pesquisa.</i> 
+<i>O objetivo do curso é apresentar um conjunto de métodos estatísticos que permitam ao estudante ler, compreender e interpretar os trabalhos técnicos e científicos que se utilizam da Estatística, assim como  ter  uma  noção  das  técnicas  envolvidas  na  coleta,  apresentação,  análise  e  interpretação  de dados tanto na área de planejamento, como na de pesquisa.</i> 
 <br>
 <br> 
 

@@ -1,0 +1,11 @@
+---
+title: "Aprendizado de Máquina"
+---
+
+<br>
+<i>O objetivo do curso é apresentar um conjunto de aulas voltadas ao ensino do aprendizado de máquina, abordando estratégias de pré-processamento de dados, algoritmos de aprendizado supervisionado e não supervisionado e avaliação de modelos preditivos.</i> 
+<br>
+<br> 
+
++ Aula 1 - Introdução ao Aprendizado de Máquina: [Slides](https://drive.google.com/file/d/1waxNlyI5mn_ewYl4j-7vzkWh2gy5jGmR/view?usp=sharing)
++ Aula 2 - Pré-processamento de Dados: [Slides](https://drive.google.com/file/d/1DgAs7P2bosNx7HFkxPxeX3c1ZhQpJExU/view?usp=sharing)
