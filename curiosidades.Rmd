@@ -51,6 +51,17 @@ As <i>cheet sheets</i> abaixo facilitam o aprendizado e o uso de alguns dos paco
 <li><i class="fas fa-puzzle-piece"></i> Memes: [Script](https://drive.google.com/file/d/1LzilvO4Jny6kYw-8A3YiqV4cebhsgSMl/view?usp=sharing)</li>
 </ul>
 
+<p>Quem nunca buscou um joguinho para distrair a mente, hein?! Com o pacote Shiny do RStudio é possível construir alguns. Aproveite os que já estão disponíveis e se distraia um pouco! Você merece! ;)
+<br>
+<br>
+
+<ul class="fa-ul">
+<li><i class="fas fa-gamepad"></i> [Campo Minado](https://dgranjon.shinyapps.io/deminR/_w_6cbbd0ed/)</li>
+<li><i class="fas fa-gamepad"></i> [Jogo da Memória](http://shinyapps.dreamrs.fr/memory-hex/)</li>
+<li><i class="fas fa-gamepad"></i> [Jogo de Luzes](https://daattali.com/shiny/lightsout/)</li>
+<li><i class="fas fa-gamepad"></i> [Onde está o país?](https://dreamrs.shinyapps.io/where-is-this-country/)</li>
+</ul>
+
 ***
 
 <h4>Gráficos</h4>
@@ -75,7 +86,7 @@ Os links abaixos apresentam páginas, pacotes ou *scripts* voltados para a contr
 <br>
 
 <ul class="fa-ul">
-<li><i class="fas fa-file-image"></i> Imagem como gráfico de pontos: [Script](https://drive.google.com/file/d/1dQvQL_5bHv5iJekauarLuvx1hvr9xa83/view?usp=sharing)</li>
+<li><i class="fas fa-file-image"></i> Imagem como gráfico de pontos: [Script](https://drive.google.com/file/d/1dQvQL_5bHv5iJekauarLuvx1hvr9xa83/view?usp=sharing), [App](https://rpodcast.shinyapps.io/shinylego/_w_8e06c828/)</li>
 <li><i class="fas fa-file-image"></i> Imagem com Lego: [Script](https://drive.google.com/file/d/1k9QCe6uuWkYa2JUM3LkbzFLKoNuSyeFi/view?usp=sharing)</li>
 </ul>
 <br>
