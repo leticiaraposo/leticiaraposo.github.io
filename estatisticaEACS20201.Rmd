@@ -33,13 +33,14 @@ As aulas são ministradas nas quartas, das 18h às 21h.
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1rjM5JyPiLcX5CAlVY8PyQw2BhDnW8gyS/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing)
-+ Aula 4 - Estatística Descritiva Bivariada:  [Slides](https://drive.google.com/file/d/1FmvMAmXLGxDO9hua91WBAj8JnrpQj2BL/view?usp=sharing)
++ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1rjM5JyPiLcX5CAlVY8PyQw2BhDnW8gyS/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJYyqliNWm7e4HE8YWfRt7ql), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing)
++ Aula 4 - Estatística Descritiva Bivariada:  [Slides](https://drive.google.com/file/d/1FmvMAmXLGxDO9hua91WBAj8JnrpQj2BL/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJbAzUXpmIjTVFxPtHt2DzbP)
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
 
-+ Aula 5 - Introdução à Probabilidade / Variáveis Aleatórias e Distribuições de Probabilidade: [Slides]()
++ Aula 5 - Introdução à Probabilidade: [Slides](https://drive.google.com/file/d/1Wl1ruo5TIDC2-BmsEpT80r1pTKq1yZ0e/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJb9gC4BtQhhJL1hFQ3KliY4)
++ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/14GcOpNN0jmkD6m3u-LW--TX92HCO6cP8/view?usp=sharing)
 
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**

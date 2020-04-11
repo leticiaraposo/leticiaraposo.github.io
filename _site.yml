@@ -22,6 +22,8 @@ navbar:
           href: estatisticaEACS20201.html
         - text: "Aprendizado de Máquina"
           href: am.html
+        - text: "Projetos de Monitoria"
+          href: monitoria.html
     - icon: fa-lightbulb fa-lg
       text: "Curiosidades"
       href: curiosidades.html

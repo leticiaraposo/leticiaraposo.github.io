@@ -38,15 +38,15 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1fSGb3RlLFr797IiLUnk80Z__q7cLOTOl/view?usp=sharing), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
-+ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1rMnGml8A0WXNXFQQaemdUa707_5A0q3o/view?usp=sharing), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
++ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1fSGb3RlLFr797IiLUnk80Z__q7cLOTOl/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJYyqliNWm7e4HE8YWfRt7ql), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
++ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1rMnGml8A0WXNXFQQaemdUa707_5A0q3o/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJbAzUXpmIjTVFxPtHt2DzbP), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
 
-+ Aula 5 - Introdução à Probabilidade:  [Slides]()
++ Aula 5 - Introdução à Probabilidade:  [Slides](https://drive.google.com/file/d/1Ow62g788YCVQ0uDfxpWc_XG3kUK2zgP7/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJb9gC4BtQhhJL1hFQ3KliY4)
 + Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I]()
-+ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides]()
++ Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1rZUsEiUUjBThXBZT97wlfrqZUuoawcqE/view?usp=sharing)
 + Aula Extra - Prática no R - [RMarkdown - Parte II](), [Rostos de Chernoff]()
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
