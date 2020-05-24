@@ -26,7 +26,11 @@ navbar:
           href: monitoria.html
     - icon: fa-lightbulb fa-lg
       text: "Curiosidades"
-      href: curiosidades.html
+      menu:
+        - text: "R/RStudio"
+          href: curiosidades.html
+        - text: "Scripts de Gráficos no R"
+          href: graficos.html
     - icon: fa-camera-retro fa-lg
       text: "Galeria"
       menu:
