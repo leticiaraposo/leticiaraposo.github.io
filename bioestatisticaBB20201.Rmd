@@ -38,25 +38,25 @@ As aulas são ministradas nas quintas e sextas, das 9h às 12h.
 **PARTE II – ESTATÍSTICA DESCRITIVA**
 <br>
 
-+ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1fSGb3RlLFr797IiLUnk80Z__q7cLOTOl/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJYyqliNWm7e4HE8YWfRt7ql), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática]()
-+ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1rMnGml8A0WXNXFQQaemdUa707_5A0q3o/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJbAzUXpmIjTVFxPtHt2DzbP), [Script da Aula Prática](), [RMarkdown da Aula Prática](), [Relatório]()
++ Aula 3 - Estatística Descritiva Univariada: [Slides](https://drive.google.com/file/d/1fSGb3RlLFr797IiLUnk80Z__q7cLOTOl/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJYyqliNWm7e4HE8YWfRt7ql), [Dados da Aula Prática](https://drive.google.com/file/d/1qqJ05r_QJCgt-_01o1MLhXbYOh0W_9sn/view?usp=sharing), [Script da Aula Prática](https://drive.google.com/file/d/1IDp_GkOxnKsKTPvJW08SD0BKJB87VCLo/view?usp=sharing)
++ Aula 4 - Estatística Descritiva Bivariada: [Slides](https://drive.google.com/file/d/1rMnGml8A0WXNXFQQaemdUa707_5A0q3o/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJbAzUXpmIjTVFxPtHt2DzbP), [Script da Aula Prática](https://drive.google.com/file/d/1zsbTC17upYnWEgIGH2LTkENqIHIE3Izd/view?usp=sharing), [RMarkdown da Aula Prática](), [Relatório]()
 
 **PARTE III – ESTATÍSTICA PROBABILÍSTICA**
 <br>
 
 + Aula 5 - Introdução à Probabilidade:  [Slides](https://drive.google.com/file/d/1Ow62g788YCVQ0uDfxpWc_XG3kUK2zgP7/view?usp=sharing), [<i class="fab fa-youtube"></i>](https://www.youtube.com/playlist?list=PLDoqBsM6cBJb9gC4BtQhhJL1hFQ3KliY4)
-+ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I]()
++ Aula Extra - Prática no R - [Dados](https://drive.google.com/file/d/1WiVpRGvWWa8Ae-Fnnk6VKVIaAwXeZ19A/view?usp=sharing), [Informações](https://drive.google.com/file/d/1hUmLD51iOpWyfo9lWsV9z4AwEatbmKMC/view?usp=sharing), [RMarkdown - Parte I](https://drive.google.com/file/d/1xYSMDsv1dOyueOUTWSTWbXHyG4ZJ84lt/view?usp=sharing)
 + Aula 6 - Variáveis Aleatórias e Distribuições de Probabilidade: [Slides](https://drive.google.com/file/d/1rZUsEiUUjBThXBZT97wlfrqZUuoawcqE/view?usp=sharing)
-+ Aula Extra - Prática no R - [RMarkdown - Parte II](), [Rostos de Chernoff]()
++ Aula Extra - Prática no R - [RMarkdown - Parte II](https://drive.google.com/file/d/1wbRoAOBqBtGA0KxDgboQQxB_lJw_cxxH/view?usp=sharing), [Rostos de Chernoff]()
 
 **PARTE IV – ESTATÍSTICA INFERENCIAL**
 <br>
 
-+ Aula 7 - Amostragem: [Slides]()
-+ Aula Extra - Prática no R - [RMarkdown - Parte III]()
-+ Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides]()
-+ Aula 10 - Testes de Hipóteses II: [Slides](), [Script - Aluno](), [Script - Aula]()
-+ Aula 11 - Testes de Hipóteses III: [Slides](), [Script - Aluno](), [Script - Aula]()
++ Aula 7 - Amostragem: [Slides](https://drive.google.com/file/d/1H73gng1tp6tI3LAZ2Sn-KuvWpg008_p-/view?usp=sharing)
++ Aula Extra - Prática no R - [RMarkdown - Parte III](https://drive.google.com/file/d/1TLW-VuBH4Ze8_J-T3eyTXxwsHBxoaQsX/view?usp=sharing)
++ Aula 8 / 9 - Estimação de Parâmetros e Testes de Hipóteses I: [Slides](https://drive.google.com/file/d/1WLE2gpWhPRMP0tZe6IEPKY6bfWk2z2np/view?usp=sharing)
++ Aula 10 - Testes de Hipóteses II: [Slides](https://drive.google.com/file/d/1eOv72WYiDgCXFgFZahUBDWJ6EiPJ4cDn/view?usp=sharing), [Script - Aluno](https://drive.google.com/file/d/1HBeqLQgvHxNiRXpCfQ8yR7JhgqnS2dys/view?usp=sharing), [Script - Aula](https://drive.google.com/file/d/1fQfSftOSC8M4FJGM-wjPeajllNcylQhM/view?usp=sharing)
++ Aula 11 - Testes de Hipóteses III: [Slides](https://drive.google.com/file/d/1vCth-iwBzV6eSkCpEIQzpYkiqntVViMU/view?usp=sharing), [Script - Aluno](https://drive.google.com/file/d/1KMgp99LUV-_2hexX4BVNy0jDl544ixQh/view?usp=sharing), [Script - Aula](https://drive.google.com/file/d/1P4WCHpOCgJ1SzFGuXTkvWMmcWKuakA1e/view?usp=sharing)
 
 **PARTE VI – MODELOS LINEARES GENERALIZADOS**
 <br>
