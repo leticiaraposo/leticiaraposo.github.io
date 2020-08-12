@@ -31,16 +31,13 @@ navbar:
           href: curiosidades.html
         - text: "Scripts de Gráficos no R"
           href: graficos.html
-    - icon: fa-camera-retro fa-lg
+    - icon: fa-photo-video fa-lg
       text: "Galeria"
       menu:
         - text: "2019"
           href: s2019.html
         - text: "2020"
           href: s2020.html
-    - icon: fa-youtube fa-lg
-      text: "Apresentações"
-      href: apresentacoes.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:profleticiaraposo@gmail.com
